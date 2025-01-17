@@ -1,0 +1,3 @@
+#!/bin/bash
+#$1 num of instances
+aws ec2 run-instances --image-id your-image-id  --count $1 --instance-type c6a.8xlarge --security-group-ids your-security-group-ids  --key-name your-key-name && aws ec2 describe-instances --filters "Name=instance-type,Values=c6a.8xlarge" "Name=instance-state-name,Values=pending,running" --query 'Reservations[*].Instances[*].PrivateIpAddress' --output text >tmpip.txt && sed 's/\t/\n/g' tmpip.txt > ip.txt && aws ec2 describe-instances --filters "Name=instance-type,Values=c6a.8xlarge" "Name=instance-state-name,Values=pending,running" --query "Reservations[].Instances[].InstanceId" --output text >./instanceids.txt

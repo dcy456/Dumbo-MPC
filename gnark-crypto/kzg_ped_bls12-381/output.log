@@ -1,0 +1,63 @@
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:982: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:987: time to sample polynomial: 6.499µs
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:995: time to commit polynomial: 2.011454ms
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:1000: time to generate proofs: 1.781904ms
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:1002: num proof:3
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:1009: randomCombine verification passed:
+[LOG] 2024/12/19 01:22:20 kzg_ped_out.go:1013: pass:
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:985: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:990: time to sample polynomial: 14.834µs
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:998: time to commit polynomial: 2.235847ms
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:1003: time to generate proofs: 2.225308ms
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:1005: num proof:3
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:1012: randomCombine verification passed:
+[LOG] 2024/12/22 18:38:39 kzg_ped_out.go:1016: pass:
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:985: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:990: time to sample polynomial: 6.683µs
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:998: time to commit polynomial: 2.021603ms
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:1003: time to generate proofs: 1.667504ms
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:1005: num proof:3
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:1012: randomCombine verification passed:
+[LOG] 2024/12/22 18:41:36 kzg_ped_out.go:1016: pass:
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:985: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:990: time to sample polynomial: 5.99µs
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:998: time to commit polynomial: 2.008781ms
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:1003: time to generate proofs: 1.631963ms
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:1005: num proof:3
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:1012: randomCombine verification passed:
+[LOG] 2024/12/22 18:41:43 kzg_ped_out.go:1016: pass:
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:985: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:990: time to sample polynomial: 8.055µs
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:998: time to commit polynomial: 3.920465ms
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:1003: time to generate proofs: 2.045789ms
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:1005: num proof:3
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:1012: randomCombine verification passed:
+[LOG] 2024/12/22 18:41:58 kzg_ped_out.go:1016: pass:
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:985: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:990: time to sample polynomial: 6.766µs
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:998: time to commit polynomial: 2.647131ms
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:1003: time to generate proofs: 1.869438ms
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:1005: num proof:3
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:1012: randomCombine verification passed:
+[LOG] 2024/12/22 19:08:07 kzg_ped_out.go:1016: pass:
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:986: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:991: time to sample polynomial: 8.269µs
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:999: time to commit polynomial: 2.82785ms
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:1004: time to generate proofs: 2.225218ms
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:1006: num proof:3
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:1013: randomCombine verification passed:
+[LOG] 2024/12/22 19:12:06 kzg_ped_out.go:1017: pass:
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:986: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:991: time to sample polynomial: 6.917µs
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:999: time to commit polynomial: 2.124251ms
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:1004: time to generate proofs: 1.622946ms
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:1006: num proof:3
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:1013: randomCombine verification passed:
+[LOG] 2024/12/22 19:14:10 kzg_ped_out.go:1017: pass:
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1050: t=:1, n=:4, batchsize:3
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1055: time to sample polynomial: 14.73µs
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1063: time to commit polynomial: 3.993609ms
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1068: time to generate proofs: 2.770424ms
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1070: num proof:3
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1077: randomCombine verification passed:
+[LOG] 2024/12/22 19:44:51 kzg_ped_out.go:1081: pass:

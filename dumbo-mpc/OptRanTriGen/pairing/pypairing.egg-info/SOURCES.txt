@@ -1,0 +1,10 @@
+LICENSE-APACHE
+LICENSE-MIT
+README.md
+setup.py
+pypairing/__init__.py
+pypairing.egg-info/PKG-INFO
+pypairing.egg-info/SOURCES.txt
+pypairing.egg-info/dependency_links.txt
+pypairing.egg-info/not-zip-safe
+pypairing.egg-info/top_level.txt

@@ -1,0 +1,177 @@
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [2] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [5] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [4] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [6] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [2] Degree check: True, Secret Check: True
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [6] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [5] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [4] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [2] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.390975952148438e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.863739013671875e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.506111145019531e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 0.00012874603271484375
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0017666816711425781
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.09808349609375e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0014543533325195312
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 9.775161743164062e-06
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0010292530059814453
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.0251998901367188e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0035207271575927734
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.09808349609375e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0009922981262207031
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.00238037109375
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0022308826446533203
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0021104812622070312
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 6.389617919921875e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 6.818771362304688e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.506111145019531e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.7206878662109375e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0019605159759521484
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.2649765014648438e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0016036033630371094
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.1920928955078125e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0010943412780761719
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 9.059906005859375e-06
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0038166046142578125
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.0503997802734375e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0007648468017578125
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0021686553955078125
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.001996755599975586
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.002038240432739258
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [2] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.104873657226562e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.939338684082031e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 6.67572021484375e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.104873657226562e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0023593902587890625
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.7894973754882812e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.005917072296142578
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 3.814697265625e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.00710296630859375
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 4.9591064453125e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0117645263671875
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 3.0040740966796875e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0034999847412109375
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.005116939544677734
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0048673152923583984
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.008176803588867188
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.2479248046875e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.887580871582031e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 0.00021028518676757812
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.030632019042969e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.001985788345336914
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.1457672119140625e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0013849735260009766
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.1682510375976562e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.001107931137084961
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.0013580322265625e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.003914356231689453
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.0742416381835938e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.00031638145446777344
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0018155574798583984
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0016994476318359375
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0015594959259033203
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.316734313964844e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.412101745605469e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.673004150390625e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.482269287109375e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0019154548645019531
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.09808349609375e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0013196468353271484
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.0728836059570312e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0009720325469970703
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.049041748046875e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.004014730453491211
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.0742416381835938e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0003440380096435547
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0016665458679199219
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0015769004821777344
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0013966560363769531
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.316734313964844e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 6.222724914550781e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 4.124641418457031e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 6.222724914550781e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.003916025161743164
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.5987625122070312e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.003572225570678711
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.33514404296875e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0020084381103515625
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.0728836059570312e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.005831003189086914
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.0503997802734375e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.00036787986755371094
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0018758773803710938
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0016732215881347656
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0015494823455810547
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    root:offline_randousha.py:128 [3] Degree check: True, Secret Check: True
+DEBUG    root:offline_randousha.py:128 [2] Degree check: True, Secret Check: True
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.581710815429688e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 0.00014519691467285156
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 0.0001380443572998047
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 0.00010609626770019531
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.007448911666870117
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.6941299438476562e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.004252910614013672
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.8371810913085938e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.008849620819091797
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 4.1961669921875e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.006072044372558594
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.4080276489257812e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0024912357330322266
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 8.416175842285156e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0054950714111328125
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0053555965423583984
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.05718994140625e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.295608520507812e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.009584188461303711
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 7.104873657226562e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0024857521057128906
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.574920654296875e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.003728628158569336
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.47955322265625e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0046367645263671875
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.4557113647460938e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.007070779800415039
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.574920654296875e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0037419795989990234
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.004260063171386719
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.003890514373779297
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.1427929401397705
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 8.392333984375e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.435943603515625e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.2928924560546875e-05
+INFO     benchmark_logger:batch_reconstruction.py:168 [BatchReconstruct] P1 Send: 5.412101745605469e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0017135143280029297
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.0503997802734375e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0013387203216552734
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.049041748046875e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0009410381317138672
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 1.0251998901367188e-05
+INFO     benchmark_logger:batch_reconstruction.py:186 [BatchReconstruct] P1 Reconstruct: 0.0032701492309570312
+INFO     benchmark_logger:batch_reconstruction.py:197 [BatchReconstruct] P2 Send: 2.0742416381835938e-05
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.00035452842712402344
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.001562356948852539
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0014913082122802734
+INFO     benchmark_logger:batch_reconstruction.py:215 [BatchReconstruct] P2 Reconstruct: 0.0014519691467285156
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector

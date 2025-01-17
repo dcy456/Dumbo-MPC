@@ -1,0 +1,9 @@
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
+DEBUG    asyncio:selector_events.py:53 Using selector: EpollSelector
