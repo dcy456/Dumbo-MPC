@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: optimizedhbmpc
+Version: 0.0.0.dev0
+Summary: optimizedhbmpc
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: gmpy2
+Requires-Dist: zfec
+Requires-Dist: pycryptodome
+Requires-Dist: cffi
+Requires-Dist: psutil
+Requires-Dist: pyzmq
+Provides-Extra: tests
+Requires-Dist: flake8; extra == "tests"
+Requires-Dist: pep8-naming; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-asyncio; extra == "tests"
+Requires-Dist: pytest-mock; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: pytest-env; extra == "tests"
+Requires-Dist: pytest-xdist; extra == "tests"
+Requires-Dist: pytest-benchmark; extra == "tests"
+Requires-Dist: pytest-benchmark[histogram]; extra == "tests"
+Requires-Dist: pyyaml; extra == "tests"
+Provides-Extra: dev
+Requires-Dist: ipdb; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pep8-naming; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-env; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pytest-benchmark; extra == "dev"
+Requires-Dist: pytest-benchmark[histogram]; extra == "dev"
+Requires-Dist: pyyaml; extra == "dev"
+Requires-Dist: Sphinx; extra == "dev"
+Requires-Dist: sphinx-autobuild; extra == "dev"
+Requires-Dist: sphinx_rtd_theme; extra == "dev"
+Requires-Dist: sphinx_tabs; extra == "dev"
+Requires-Dist: m2r; extra == "dev"
+Requires-Dist: doc8; extra == "dev"
+Requires-Dist: web3; extra == "dev"
+Requires-Dist: ethereum; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: Sphinx; extra == "docs"
+Requires-Dist: sphinx-autobuild; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Requires-Dist: sphinx_tabs; extra == "docs"
+Requires-Dist: m2r; extra == "docs"
+Requires-Dist: doc8; extra == "docs"
+Requires-Dist: web3; extra == "docs"
+Requires-Dist: ethereum; extra == "docs"
+Provides-Extra: eth
+Requires-Dist: web3; extra == "eth"
+Requires-Dist: ethereum; extra == "eth"
+Provides-Extra: aws
+Requires-Dist: boto3; extra == "aws"
+Requires-Dist: paramiko; extra == "aws"
+
+optimizedhbmpc

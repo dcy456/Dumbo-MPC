@@ -1,0 +1,13 @@
+2025-01-21 03:47:25:[random.py:139]:[INFO]: [1] Starting AsyRanShGen
+2025-01-21 03:47:25:[random.py:145]:[INFO]: [1] [random shares] Starting ACSS to share 16 secrets
+2025-01-21 03:47:25:[random.py:150]:[INFO]: [1] [random shares] ACSS time 0.09064769744873047 seconds
+2025-01-21 03:47:25:[random.py:158]:[INFO]: [1] [random shares] Starting ACS where node 1 is set as leader
+2025-01-21 03:47:25:[random.py:159]:[INFO]: [1] [random shares] The proposal is [1, 2, 0]
+2025-01-21 03:47:25:[random.py:178]:[INFO]: [1] [random shares] The ACS set is [0, 1, 2]
+2025-01-21 03:47:25:[random.py:180]:[INFO]: [1] [random shares] ACS time: 0.13503050804138184 seconds
+2025-01-21 03:47:25:[random.py:182]:[INFO]: [1] [random shares] Starting compute random shares
+2025-01-21 03:47:25:[random.py:186]:[INFO]: [1] [random shares] Random extraction time: 0.012778520584106445 seconds
+2025-01-21 03:47:25:[random.py:188]:[INFO]: [1] Finished! Node 1, total number: 32, time: 0.23948001861572266 (seconds)
+2025-01-21 03:47:25:[random.py:192]:[INFO]: [1] Bytes Sent: R_A:128467 which is 99.267%
+2025-01-21 03:47:25:[random.py:192]:[INFO]: [1] Bytes Sent: ACS:948 which is 0.733%
+2025-01-21 03:47:25:[random.py:193]:[INFO]: [1] Total bytes sent out aa: 129415

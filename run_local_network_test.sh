@@ -11,14 +11,14 @@ k=$3
 
 
 case "$TASK_NAME" in
-    "asy_random")
+    "asy-random")
         echo "Running run_random.py"
         cd ./dumbo-mpc/AsyRanTriGen
         # python scripts/init_batchsize_ip.py --N ${N} --k ${k}
         ./scripts/local_test.sh scripts/run_random.py ${N} ${k}
         ;;
     
-    "asy_triple")
+    "asy-triple")
         echo "Running run_beaver_triple.py"
         cd ./dumbo-mpc/AsyRanTriGen
         # python scripts/init_batchsize_ip.py --N ${N} --k ${k}
@@ -27,14 +27,21 @@ case "$TASK_NAME" in
     
     "dumbo-mpc")
         echo "Running run_dual_mode.py"
-        cd ./dumbo-mpc/OptRanTriGen
+        cd ./dumbo-mpc/dualmode
         # python scripts/init_batchsize_ip.py --N ${N} --k ${k}
         ./scripts/local_test.sh scripts/run_dual_mode.py ${N} ${k}
         ;;
     
+    "opt-triple")
+        echo "Running optrantrigen.py"
+        cd ./dumbo-mpc/OptRanTriGen
+        # python scripts/init_batchsize_ip.py --N ${N} --k ${k}
+        ./scripts/local_test.sh optimizedhbmpc/optrantrigen.py ${N} ${k}
+        ;;
+    
     *)
         echo "Invalid task name: $TASK_NAME"
-        echo "Valid task names: dumbo-mpc, asy_random, asy_triple"
+        echo "Valid task names: dumbo-mpc, asy-random, asy-triple, opt-triple"
         exit 1
         ;;
 esac

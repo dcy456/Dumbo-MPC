@@ -33,8 +33,8 @@ while true; do
     for ID in $(seq 0 $((NUM_NODES - 1))); do
         LOG_FILE="$LOG_DIR/logs-${ID}.log"
         
-        # Check if the 'AsyRanTriGen finished!' or 'finished in' or 'finished opt. triple generation' keyword appears in the log file
-        if grep -q -E "AsyRanTriGen finished!|finished in|finished opt. triple generation" "$LOG_FILE"; then
+        # Check if the 'AsyRanTriGen finished!' or 'finished in' or 'Finished OptRanTriGen!' keyword appears in the log file
+        if grep -q -E "AsyRanTriGen finished!|finished in|Finished OptRanTriGen!" "$LOG_FILE"; then
             # echo "'Finished' found in $LOG_FILE"
             log_status[$ID]=true
         fi

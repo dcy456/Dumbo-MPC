@@ -37,7 +37,7 @@ secret_batchsize=$(python3 -c "import math; print(math.ceil(2 * $k * int(math.lo
 echo "Number of secre to be shared: $secret_batchsize"
 
 
-cd ../OptRanTriGen/ || { echo "Failed to change directory to ../AsyRanTriGen/"; exit 1; }
+cd ../dualmode/ || { echo "Failed to change directory to ../dualmode/"; exit 1; }
 ./scripts/local_test.sh scripts/run_dual_mode.py "$NUM_NODES" "$secret_batchsize"
 
 # if [ $? -ne 0 ] || [ -z "$required_triple" ]; then
@@ -45,10 +45,7 @@ cd ../OptRanTriGen/ || { echo "Failed to change directory to ../AsyRanTriGen/"; 
 #     exit 1
 # fi
 
-
-
-
-
+cd ../online/
 # parse random and triples format for online evaluaiton
 python scripts/parse_asy_ran_triples.py --N "$NUM_NODES"
 
@@ -59,6 +56,7 @@ python scripts/one_minus_one_generation.py --N "$NUM_NODES" --k "$k"
 
 # mv ./sharedata/* ./sharedata_test/
 
+cd ../OptRanTriGen/
 python scripts/init_batchsize_ip.py --N "$NUM_NODES" --k "$k"
 
-echo "All proprecessing data store at /OptRanTriGen/sharedata_test."
+echo "All proprecessing data store at /online/sharedata_test."

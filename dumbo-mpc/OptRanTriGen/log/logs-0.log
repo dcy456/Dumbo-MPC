@@ -1,0 +1,13 @@
+2025-01-21 04:02:41,289:[optrantrigen.py:197]:[INFO]: [0] start OptRanTriGen
+2025-01-21 04:02:41,864:[optrantrigen.py:207]:[INFO]: [0] finished 0-th OptRanTriGen instance, time: 0.5738842487335205
+2025-01-21 04:02:42,386:[optrantrigen.py:207]:[INFO]: [0] finished 1-th OptRanTriGen instance, time: 0.5219388008117676
+2025-01-21 04:02:42,911:[optrantrigen.py:207]:[INFO]: [0] finished 2-th OptRanTriGen instance, time: 0.5245471000671387
+2025-01-21 04:02:43,437:[optrantrigen.py:207]:[INFO]: [0] finished 3-th OptRanTriGen instance, time: 0.5259442329406738
+2025-01-21 04:02:43,962:[optrantrigen.py:207]:[INFO]: [0] finished 4-th OptRanTriGen instance, time: 0.5255918502807617
+2025-01-21 04:02:44,489:[optrantrigen.py:207]:[INFO]: [0] finished 5-th OptRanTriGen instance, time: 0.5264959335327148
+2025-01-21 04:02:45,017:[optrantrigen.py:207]:[INFO]: [0] finished 6-th OptRanTriGen instance, time: 0.5272119045257568
+2025-01-21 04:02:45,538:[optrantrigen.py:207]:[INFO]: [0] finished 7-th OptRanTriGen instance, time: 0.5212080478668213
+2025-01-21 04:02:46,063:[optrantrigen.py:207]:[INFO]: [0] finished 8-th OptRanTriGen instance, time: 0.5244848728179932
+2025-01-21 04:02:46,588:[optrantrigen.py:207]:[INFO]: [0] finished 9-th OptRanTriGen instance, time: 0.5257978439331055
+2025-01-21 04:02:46,589:[optrantrigen.py:209]:[INFO]: [0] Finished OptRanTriGen! triples: 160, time: 5.29865837097168 (seconds)
+2025-01-21 04:02:46,589:[optrantrigen.py:212]:[INFO]: [0] Total bytes sent out aa: 180503

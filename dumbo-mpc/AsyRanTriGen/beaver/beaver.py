@@ -35,7 +35,7 @@ class BEAVER:
     def __init__(self, public_keys,  private_key, pkbls, skbls, n, t, srs, my_id, send, recv, matrices, batchsize):
 
         global logger 
-        logfile = f'../OptRanTriGen/log/logs-{my_id}.log'
+        logfile = f'../dualmode/log/logs-{my_id}.log'
 
         logging.basicConfig(
             # level=logging.DEBUG,
@@ -277,7 +277,7 @@ class BEAVER:
             with open(file_path, 'wb') as file:
                 file.write(byte_data)
         
-        write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
+        write_bytes_to_file(f'../dualmode/asy-triples/{self.my_id}_triples.txt', triples)
 
         reduction_outputs = [None]
         triples = [None]

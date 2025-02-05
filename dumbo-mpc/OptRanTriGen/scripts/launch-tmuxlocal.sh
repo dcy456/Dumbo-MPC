@@ -3,11 +3,11 @@
 set -e  # fail if any command fails
 
 # This script runs an MPC program in N processes.
-# Usage: scripts/launch-tmuxlocal.sh honeybadgermpc/ipc.py 4
+# Usage: scripts/launch-tmuxlocal.sh optimizedhbmpc/ipc.py 4
 
 if [ $# -lt 2 ] ; then
     echo "usage: $0 <module.py> <NUM_NODES>"
-    echo "example: $0 honeybadgermpc/ipc.py 4"
+    echo "example: $0 optimizedhbmpc/ipc.py 4"
     exit 1
 fi
 

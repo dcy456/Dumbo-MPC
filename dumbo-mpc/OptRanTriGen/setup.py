@@ -7,8 +7,8 @@ from setuptools import setup, find_packages
 from setuptools.extension import Extension
 from Cython.Build import cythonize
 
-NAME = "honeybadgermpc"
-DESCRIPTION = "honeybadgermpc"
+NAME = "optimizedhbmpc"
+DESCRIPTION = "optimizedhbmpc"
 REQUIRES_PYTHON = ">=3.7.0"
 VERSION = None
 
@@ -82,8 +82,8 @@ extra_link_args = [
 
 extensions = [
     Extension(
-        name="honeybadgermpc.ntl._hbmpc_ntl_helpers",
-        sources=["honeybadgermpc/ntl/hbmpc_ntl_helpers.pyx"],
+        name="optimizedhbmpc.ntl._hbmpc_ntl_helpers",
+        sources=["optimizedhbmpc/ntl/hbmpc_ntl_helpers.pyx"],
         language="c++",
         extra_compile_args=extra_compile_args,
         extra_link_args=extra_link_args,
@@ -99,7 +99,6 @@ setup(
     python_requires=REQUIRES_PYTHON,
     setup_requires=["cffi>=1.0.0", "Cython"],
     install_requires=REQUIRED,
-    cffi_modules=["apps/asynchromix/solver/solver_build.py:ffibuilder"],
     extras_require=EXTRAS,
     ext_modules=cythonize(extensions),
     classifiers=[
@@ -110,4 +109,7 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
     ],
     packages=find_packages(),
+    package_data={
+        'optimizedhbmpc': ['logging.yaml'], 
+    },
 )

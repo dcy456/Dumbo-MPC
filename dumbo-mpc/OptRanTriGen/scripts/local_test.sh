@@ -5,8 +5,8 @@ set -e  # Exit immediately if any command fails
 # Usage: scripts/launch-tmuxlocal.sh module.py NUM_NODES
 
 if [ $# -lt 2 ]; then
-    echo "Usage: $0 <module.py> <num_nodes>"
-    echo "Example: $0 scripts/run_dual_mode.py 4"
+    echo "Usage: $0 <module.py> <num_nodes> <batchsize>"
+    echo "Example: $0 scripts/run_dual_mode.py 4 16"
     exit 1
 fi
 

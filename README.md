@@ -76,35 +76,41 @@ python setup.py build_ext --inplace
 ```bash
 ./run_local_network_test.sh dumbo_mpc 4 200
 ```
-We simulate an check failure at a specific round (e.g., round 10) during the OptRanTriGen phase, and subsequently begin executing the AsyRanTriGen after secure fallback. The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/OptRanTriGen/log`.
+We simulate an check failure at a specific round (e.g., round 10) during the OptRanTriGen phase, and subsequently begin executing the AsyRanTriGen after secure fallback. The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/dualmode/log`.
 
 2. Run asy_random to generate random shares using AsyRanShGen algorithm:
 ```bash
-./run_local_network_test.sh asy_random 4 200
+./run_local_network_test.sh asy-random 4 200
 ```
 The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/AsyRanTriGen/log`.
 
 3. Run asy_triple to generate Beaver triples using AsyRanTriGen algorithm:
 ```bash
-./run_local_network_test.sh asy_triple 4 200
+./run_local_network_test.sh asy-triple 4 200
 ```
 The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/AsyRanTriGen/log`.
 
-4. Shuffle 16 inputs using butterfly network:
+4. Run opt_triple to generate Beaver triples using OptRanTriGen algorithm:
+```bash
+./run_local_network_test.sh opt-triple 4 200
+```
+The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/OptRanTriGen/log`.
+
+5. Shuffle 16 inputs using butterfly network:
 
     First, Prepare random shares and Beaver Triples:
     ```bash
     cd Dumbo-MPC/dumbo-mpc/online
     ./proprecessing.sh 4 16
     ```
-    All preprocessed data are stored at `dumbo-mpc/OptRanTriGen/sharedata_test`.
+    All preprocessed data are stored at `dumbo-mpc/online/sharedata_test`.
 
     Then,  Execute the shuffle task: 
     ```bash
-    ./proprecessing.sh 4 16
+    ./scripts/local_test.sh butterfly_network.py 4 16
     ```
 
-    The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/OptRanTriGen/log`.
+    The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/online/log`.
 
 
 
@@ -194,7 +200,6 @@ Run the Dumbo-MPC with a batch size of 5000 for 4 nodes:
 cd Dumbo-MPC_scripts
 ./changeconfig.sh
 ./launch_dumboMPC.sh 4 5000
-./terminate.sh
 ```
 
 After benchmark, you can read the running results by connecting these instances and viewing these logs or by running `scplog.sh`.
@@ -203,4 +208,4 @@ After benchmark, you can read the running results by connecting these instances 
 ./scplog.sh 4 5000
 ```
 
-These logs will be stored in `./log_4_8x/test_5000/`.
+These logs will be stored in `./log_4_8x`.

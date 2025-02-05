@@ -1,0 +1,17 @@
+2025-01-17 11:32:06:[beaver.py:219]:[INFO]: [2] Starting random share generation
+2025-01-17 11:32:06:[beaver.py:226]:[INFO]: [2] Starting ACSS to share 200 secrets
+2025-01-17 11:32:06:[beaver.py:237]:[INFO]: [2] [random shares] Starting ACS where node 1 is set as leader 
+2025-01-17 11:32:06:[beaver.py:238]:[INFO]: [2] [random shares] The proposal is [0, 1]
+2025-01-17 11:32:06:[optacs.py:50]:[INFO]: --Directly send the proposal!--
+2025-01-17 11:32:06:[beaver.py:256]:[INFO]: [2] [random shares] The ACS set is [0, 3]
+2025-01-17 11:32:06:[beaver.py:259]:[INFO]: [2] Starting compute random shares
+2025-01-17 11:32:06:[beaver.py:262]:[INFO]: [2] random share generation finished! Total number: 200
+2025-01-17 11:32:07:[beaver.py:281]:[INFO]: [2] [triples] Starting to ACS where 2 is set as leader 
+2025-01-17 11:32:07:[beaver.py:283]:[INFO]: [2] [triples] The proposal is [2, 0, 3]
+2025-01-17 11:32:07:[optacs.py:50]:[INFO]: --Directly send the proposal!--
+2025-01-17 11:32:07:[beaver.py:302]:[INFO]: [2] [triples] The ACS set is [2, 0, 3]
+2025-01-17 11:32:07:[beaver.py:312]:[INFO]: Triple generation finished! Total number: 100, time: 1.6043684482574463 (seconds)
+2025-01-17 11:32:07:[beaver.py:317]:[INFO]: [2] Bytes Sent: R_A:209082 which is 6.288%
+2025-01-17 11:32:07:[beaver.py:317]:[INFO]: [2] Bytes Sent: ACS:798 which is 0.024%
+2025-01-17 11:32:07:[beaver.py:317]:[INFO]: [2] Bytes Sent: B_A:3115362 which is 93.688%
+2025-01-17 11:32:07:[beaver.py:318]:[INFO]: [2] Total bytes sent out aa: 3325242
