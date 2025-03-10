@@ -15,10 +15,16 @@ sudo apt-get install -y --no-install-recommends make bison flex libgmp-dev libmp
 
 2. Install Python Dependencies
 ```bash
-pip install cffi Cython gmpy2 pycryptodome pyzmq pyyaml psutil reedsolo numpy pytest zfec
+pip install cffi Cython gmpy2 pycryptodome pyzmq pyyaml psutil reedsolo numpy pytest
 ```
 
-3. Install Rustup
+3. Install zfec
+```bash
+./install_zfec.sh
+```
+
+
+4. Install Rustup
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain nightly
@@ -27,7 +33,7 @@ rustup --version
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
-4. Install pbc:
+5. Install pbc:
 
 ```bash
 wget https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz
@@ -40,7 +46,7 @@ cd ..
 sudo ldconfig /usr/local/lib
 ```
 
-5. Install Charm-Crypto:
+6. Install Charm-Crypto:
 
 ```bash
 git clone https://github.com/JHUISI/charm.git
@@ -52,7 +58,7 @@ sudo make test
 cd ..
 ```
 
-6. Install pairing
+7. Install pairing
 ```bash
 cd dumbo-mpc/OptRanTriGen/pairing/
 pip install --upgrade setuptools setuptools_rust
@@ -60,7 +66,7 @@ pip install .
 cd ..
 ```
 
-7. Install remaining pip dependencies here
+8. Install remaining pip dependencies here
 ```bash
 sudo sed -i '30c #include "flint/flint.h"' /usr/include/flint/flintxx/flint_classes.h
 pip install .
@@ -74,7 +80,7 @@ python setup.py build_ext --inplace
 ## Running Dumbo-MPC at your local machine
 1. A quick start to run Dumbo-MPC (where fast path (OptRanTriGen) and pessimistic path (AsyRanTriGen) are both with a batch size of 200)  for 4 nodes can be:
 ```bash
-./run_local_network_test.sh dumbo_mpc 4 200
+./run_local_network_test.sh dumbo-mpc 4 200
 ```
 We simulate an check failure at a specific round (e.g., round 10) during the OptRanTriGen phase, and subsequently begin executing the AsyRanTriGen after secure fallback. The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/dualmode/log`.
 
