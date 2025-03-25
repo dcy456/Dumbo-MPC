@@ -5,7 +5,7 @@
 
 #line 1 "cgo-builtin-export-prolog"
 
-#include <stddef.h>
+#include <stddef.h> /* for ptrdiff_t below */
 
 #ifndef GO_CGO_EXPORT_PROLOGUE_H
 #define GO_CGO_EXPORT_PROLOGUE_H
@@ -40,17 +40,11 @@ typedef long long GoInt64;
 typedef unsigned long long GoUint64;
 typedef GoInt64 GoInt;
 typedef GoUint64 GoUint;
-typedef size_t GoUintptr;
+typedef __SIZE_TYPE__ GoUintptr;
 typedef float GoFloat32;
 typedef double GoFloat64;
-#ifdef _MSC_VER
-#include <complex.h>
-typedef _Fcomplex GoComplex64;
-typedef _Dcomplex GoComplex128;
-#else
 typedef float _Complex GoComplex64;
 typedef double _Complex GoComplex128;
-#endif
 
 /*
   static assertion to make sure the file is being used on architecture
@@ -101,6 +95,7 @@ extern GoUint8 pyProdverify(char* json_SRS_Vk, char* json_zkProof_ab, char* json
 // pyTriplesCompute reconstructs triples from secret shares using Lagrange interpolation.
 //
 extern char* pyTriplesCompute(char* json_commonset, char* json_shares_ab, char* json_c_shares, char* json_c_com);
+extern void pyReconstruct(char* json_0, char* json_1, char* json_2, char* json_3);
 
 #ifdef __cplusplus
 }

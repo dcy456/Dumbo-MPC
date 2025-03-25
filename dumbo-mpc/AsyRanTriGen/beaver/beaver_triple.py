@@ -20,6 +20,8 @@ lib.pyBatchVerify.restype = c_bool
 lib.pyTriplesCompute.argtypes = [c_char_p, c_char_p, c_char_p, c_char_p]
 lib.pyTriplesCompute.restype = c_char_p
 
+lib.pyReconstruct.argtypes = [c_char_p, c_char_p, c_char_p, c_char_p]
+
 class BeaverMsgType:
     ACSS1 = "R_A"
     ACSS2 = "B_A"
@@ -106,9 +108,9 @@ class BEAVER:
             proofsandshares[i] = json.loads(acss_outputs[i]['shares'].decode('utf-8'))
 
         filtered_commitments = [item for item in commitment if item is not None ]
-        filtered_proofandshares = [item for item in proofsandshares if item is not None ]
         serialized_commitments = json.dumps(filtered_commitments).encode('utf-8')
-        serialized_proofandshares = json.dumps(filtered_proofandshares).encode('utf-8')
+        serialized_proofandshares = json.dumps(proofsandshares).encode('utf-8')
+        # logger.info(f"[{self.my_id}] proofsandshares {proofsandshares}")
 
 
         deserialized_commandprooflist = json.loads(sharesproofs_ab.decode('utf-8')) 
@@ -226,6 +228,12 @@ class BEAVER:
 
         logger.info(f"[{self.my_id}] Starting extract random shares") 
         randomshares_proofs = self.genrandomshare(acsset, acss_outputs)
+        
+        # def write_bytes_to_file(file_path, byte_data):
+        #     with open(file_path, 'wb') as file:
+        #         file.write(byte_data)
+        
+        # write_bytes_to_file(f'ransh/{self.my_id}_randomshares.txt', randomshares_proofs)
             
         acss_outputs = [None]
         logger.info(f"[{self.my_id}] Obtaining total {(self.t + 1) * self.batchsize} random shares!")
@@ -263,19 +271,48 @@ class BEAVER:
         )
         acsset_beaver = await acs.handle_message()
         logger.info(f"[{self.my_id}] [beaver triples] The ACS set is {acsset_beaver}") 
+        acsset_beaver =[3, 2, 1]
         
         triples = self.beavergen(acsset_beaver, reduction_outputs, reduction_values)
-        def write_bytes_to_file(file_path, byte_data):
-            with open(file_path, 'wb') as file:
-                file.write(byte_data)
         
-        write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
+        # If you wish to store triples, please uncomment the following code.
+        
+        # def write_bytes_to_file(file_path, byte_data):
+        #     with open(file_path, 'wb') as file:
+        #         file.write(byte_data)
+        
+        # write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
+        
 
         reduction_outputs = [None]
-        triples = [None]
+        # triples = [None]
         
         beaver_time = time.time() -acss_start_time
+        await asyncio.sleep(2)
         logger.info(f"[{self.my_id}] [beaver triples] Finished! Node {self.my_id}, total number: {int ((self.t + 1) * self.batchsize / 2) }, time: {beaver_time} (seconds)")
+        
+        # test triple correctness
+        
+        # def read_multiple_files(filenames):
+        #     contents = []
+        #     for filename in filenames:
+        #         try:
+        #             with open(filename, 'rb') as file:  # 
+        #                 contents.append(file.read())
+        #         except Exception as e:
+        #             print(f"Error reading file {filename}: {e}")
+        #             contents.append(None)  # 
+        #     return contents
+
+        # filenames = [
+        # 'triples/0_triples.txt',
+        # 'triples/1_triples.txt',
+        # 'triples/2_triples.txt',
+        # 'triples/3_triples.txt'
+        # ]
+
+        # alltriples = read_multiple_files(filenames)
+        # lib.pyReconstruct(alltriples[0], alltriples[1], alltriples[2], alltriples[3])
         
         
         bytes_sent = node_communicator.bytes_sent

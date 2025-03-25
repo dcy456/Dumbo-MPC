@@ -298,11 +298,14 @@ class BEAVER:
             logger.info(f"[beaver triples] The ACS set is {acsset_beaver}") 
             
             triples = self.beavergen(acsset_beaver, reduction_outputs, reduction_values)
-            def write_bytes_to_file(file_path, byte_data):
-                with open(file_path, 'wb') as file:
-                    file.write(byte_data)
             
-            write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
+            # If you wish to store triples, please uncomment the following code.
+            
+            # def write_bytes_to_file(file_path, byte_data):
+            #     with open(file_path, 'wb') as file:
+            #         file.write(byte_data)
+            
+            # write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
 
             reduction_outputs = [None]
             triples = [None]

@@ -1,0 +1,684 @@
+2025-03-24 04:29:19,345:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 04:29:19,346:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 04:29:19,361:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 04:29:19,362:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 04:29:19,393:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 04:29:19,394:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 04:29:19,441:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 04:29:19,442:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 04:32:07,283:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 04:32:07,284:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 04:32:07,300:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 04:32:07,300:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 04:32:07,301:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 04:32:07,301:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 04:32:07,316:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 04:32:07,316:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 04:34:06,605:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 04:34:06,606:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 04:34:06,621:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 04:34:06,622:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 04:34:06,622:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 04:34:06,622:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 04:34:06,637:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 04:34:06,638:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 04:36:04,054:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 04:36:04,054:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 04:36:04,057:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 04:36:04,057:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 04:36:04,057:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 04:36:04,058:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 04:36:04,100:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 04:36:04,101:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 04:36:04,741:[dual_mode.py:187]:[INFO]: [1] finished 1-th OptRanTriGen instance, time: 0.6828610897064209
+2025-03-24 04:36:04,741:[dual_mode.py:159]:[INFO]: [1] start 2-th OptRanTriGen instance
+2025-03-24 04:36:04,741:[dual_mode.py:187]:[INFO]: [0] finished 1-th OptRanTriGen instance, time: 0.6833667755126953
+2025-03-24 04:36:04,741:[dual_mode.py:159]:[INFO]: [0] start 2-th OptRanTriGen instance
+2025-03-24 04:36:04,741:[dual_mode.py:187]:[INFO]: [3] finished 1-th OptRanTriGen instance, time: 0.686626672744751
+2025-03-24 04:36:04,741:[dual_mode.py:159]:[INFO]: [3] start 2-th OptRanTriGen instance
+2025-03-24 04:36:04,743:[dual_mode.py:187]:[INFO]: [2] finished 1-th OptRanTriGen instance, time: 0.6419174671173096
+2025-03-24 04:36:04,743:[dual_mode.py:159]:[INFO]: [2] start 2-th OptRanTriGen instance
+2025-03-24 04:36:05,396:[dual_mode.py:187]:[INFO]: [1] finished 2-th OptRanTriGen instance, time: 0.6550078392028809
+2025-03-24 04:36:05,396:[dual_mode.py:159]:[INFO]: [1] start 3-th OptRanTriGen instance
+2025-03-24 04:36:05,396:[dual_mode.py:187]:[INFO]: [0] finished 2-th OptRanTriGen instance, time: 0.6550989151000977
+2025-03-24 04:36:05,396:[dual_mode.py:159]:[INFO]: [0] start 3-th OptRanTriGen instance
+2025-03-24 04:36:05,398:[dual_mode.py:187]:[INFO]: [2] finished 2-th OptRanTriGen instance, time: 0.6543512344360352
+2025-03-24 04:36:05,398:[dual_mode.py:159]:[INFO]: [2] start 3-th OptRanTriGen instance
+2025-03-24 04:36:05,398:[dual_mode.py:187]:[INFO]: [3] finished 2-th OptRanTriGen instance, time: 0.6564440727233887
+2025-03-24 04:36:05,398:[dual_mode.py:159]:[INFO]: [3] start 3-th OptRanTriGen instance
+2025-03-24 04:36:06,046:[dual_mode.py:178]:[INFO]: [1] output 1-th triples
+2025-03-24 04:36:06,046:[dual_mode.py:178]:[INFO]: [0] output 1-th triples
+2025-03-24 04:36:06,046:[dual_mode.py:187]:[INFO]: [0] finished 3-th OptRanTriGen instance, time: 0.6495695114135742
+2025-03-24 04:36:06,046:[dual_mode.py:187]:[INFO]: [1] finished 3-th OptRanTriGen instance, time: 0.6500341892242432
+2025-03-24 04:36:06,046:[dual_mode.py:159]:[INFO]: [0] start 4-th OptRanTriGen instance
+2025-03-24 04:36:06,046:[dual_mode.py:159]:[INFO]: [1] start 4-th OptRanTriGen instance
+2025-03-24 04:36:06,049:[dual_mode.py:178]:[INFO]: [2] output 1-th triples
+2025-03-24 04:36:06,049:[dual_mode.py:178]:[INFO]: [3] output 1-th triples
+2025-03-24 04:36:06,049:[dual_mode.py:187]:[INFO]: [2] finished 3-th OptRanTriGen instance, time: 0.6510293483734131
+2025-03-24 04:36:06,049:[dual_mode.py:187]:[INFO]: [3] finished 3-th OptRanTriGen instance, time: 0.650754451751709
+2025-03-24 04:36:06,049:[dual_mode.py:159]:[INFO]: [2] start 4-th OptRanTriGen instance
+2025-03-24 04:36:06,050:[dual_mode.py:159]:[INFO]: [3] start 4-th OptRanTriGen instance
+2025-03-24 04:36:06,696:[dual_mode.py:178]:[INFO]: [0] output 2-th triples
+2025-03-24 04:36:06,696:[dual_mode.py:187]:[INFO]: [0] finished 4-th OptRanTriGen instance, time: 0.649674654006958
+2025-03-24 04:36:06,696:[dual_mode.py:178]:[INFO]: [1] output 2-th triples
+2025-03-24 04:36:06,696:[dual_mode.py:159]:[INFO]: [0] start 5-th OptRanTriGen instance
+2025-03-24 04:36:06,696:[dual_mode.py:187]:[INFO]: [1] finished 4-th OptRanTriGen instance, time: 0.6497433185577393
+2025-03-24 04:36:06,696:[dual_mode.py:159]:[INFO]: [1] start 5-th OptRanTriGen instance
+2025-03-24 04:36:06,698:[dual_mode.py:178]:[INFO]: [3] output 2-th triples
+2025-03-24 04:36:06,699:[dual_mode.py:187]:[INFO]: [3] finished 4-th OptRanTriGen instance, time: 0.6487746238708496
+2025-03-24 04:36:06,699:[dual_mode.py:159]:[INFO]: [3] start 5-th OptRanTriGen instance
+2025-03-24 04:36:06,699:[dual_mode.py:178]:[INFO]: [2] output 2-th triples
+2025-03-24 04:36:06,699:[dual_mode.py:187]:[INFO]: [2] finished 4-th OptRanTriGen instance, time: 0.6494505405426025
+2025-03-24 04:36:06,699:[dual_mode.py:159]:[INFO]: [2] start 5-th OptRanTriGen instance
+2025-03-24 04:36:07,354:[dual_mode.py:178]:[INFO]: [1] output 3-th triples
+2025-03-24 04:36:07,354:[dual_mode.py:187]:[INFO]: [1] finished 5-th OptRanTriGen instance, time: 0.6577584743499756
+2025-03-24 04:36:07,354:[dual_mode.py:159]:[INFO]: [1] start 6-th OptRanTriGen instance
+2025-03-24 04:36:07,354:[dual_mode.py:178]:[INFO]: [0] output 3-th triples
+2025-03-24 04:36:07,354:[dual_mode.py:187]:[INFO]: [0] finished 5-th OptRanTriGen instance, time: 0.658193826675415
+2025-03-24 04:36:07,354:[dual_mode.py:159]:[INFO]: [0] start 6-th OptRanTriGen instance
+2025-03-24 04:36:07,355:[dual_mode.py:178]:[INFO]: [2] output 3-th triples
+2025-03-24 04:36:07,355:[dual_mode.py:187]:[INFO]: [2] finished 5-th OptRanTriGen instance, time: 0.6558859348297119
+2025-03-24 04:36:07,356:[dual_mode.py:178]:[INFO]: [3] output 3-th triples
+2025-03-24 04:36:07,356:[dual_mode.py:159]:[INFO]: [2] start 6-th OptRanTriGen instance
+2025-03-24 04:36:07,356:[dual_mode.py:187]:[INFO]: [3] finished 5-th OptRanTriGen instance, time: 0.6567800045013428
+2025-03-24 04:36:07,356:[dual_mode.py:159]:[INFO]: [3] start 6-th OptRanTriGen instance
+2025-03-24 04:36:08,012:[dual_mode.py:178]:[INFO]: [0] output 4-th triples
+2025-03-24 04:36:08,012:[dual_mode.py:178]:[INFO]: [1] output 4-th triples
+2025-03-24 04:36:08,012:[dual_mode.py:187]:[INFO]: [0] finished 6-th OptRanTriGen instance, time: 0.6571271419525146
+2025-03-24 04:36:08,012:[dual_mode.py:187]:[INFO]: [1] finished 6-th OptRanTriGen instance, time: 0.6575016975402832
+2025-03-24 04:36:08,012:[dual_mode.py:159]:[INFO]: [0] start 7-th OptRanTriGen instance
+2025-03-24 04:36:08,012:[dual_mode.py:159]:[INFO]: [1] start 7-th OptRanTriGen instance
+2025-03-24 04:36:08,014:[dual_mode.py:178]:[INFO]: [2] output 4-th triples
+2025-03-24 04:36:08,014:[dual_mode.py:178]:[INFO]: [3] output 4-th triples
+2025-03-24 04:36:08,014:[dual_mode.py:187]:[INFO]: [2] finished 6-th OptRanTriGen instance, time: 0.6583786010742188
+2025-03-24 04:36:08,014:[dual_mode.py:187]:[INFO]: [3] finished 6-th OptRanTriGen instance, time: 0.6581692695617676
+2025-03-24 04:36:08,014:[dual_mode.py:159]:[INFO]: [2] start 7-th OptRanTriGen instance
+2025-03-24 04:36:08,014:[dual_mode.py:159]:[INFO]: [3] start 7-th OptRanTriGen instance
+2025-03-24 04:36:08,657:[dual_mode.py:178]:[INFO]: [0] output 5-th triples
+2025-03-24 04:36:08,658:[dual_mode.py:187]:[INFO]: [0] finished 7-th OptRanTriGen instance, time: 0.6455550193786621
+2025-03-24 04:36:08,658:[dual_mode.py:159]:[INFO]: [0] start 8-th OptRanTriGen instance
+2025-03-24 04:36:08,658:[dual_mode.py:178]:[INFO]: [2] output 5-th triples
+2025-03-24 04:36:08,658:[dual_mode.py:187]:[INFO]: [2] finished 7-th OptRanTriGen instance, time: 0.6431560516357422
+2025-03-24 04:36:08,658:[dual_mode.py:159]:[INFO]: [2] start 8-th OptRanTriGen instance
+2025-03-24 04:36:08,661:[dual_mode.py:178]:[INFO]: [1] output 5-th triples
+2025-03-24 04:36:08,661:[dual_mode.py:178]:[INFO]: [3] output 5-th triples
+2025-03-24 04:36:08,661:[dual_mode.py:187]:[INFO]: [1] finished 7-th OptRanTriGen instance, time: 0.6489341259002686
+2025-03-24 04:36:08,661:[dual_mode.py:159]:[INFO]: [1] start 8-th OptRanTriGen instance
+2025-03-24 04:36:08,661:[dual_mode.py:187]:[INFO]: [3] finished 7-th OptRanTriGen instance, time: 0.6463079452514648
+2025-03-24 04:36:08,661:[dual_mode.py:159]:[INFO]: [3] start 8-th OptRanTriGen instance
+2025-03-24 04:36:09,289:[dual_mode.py:178]:[INFO]: [0] output 6-th triples
+2025-03-24 04:36:09,289:[dual_mode.py:187]:[INFO]: [0] finished 8-th OptRanTriGen instance, time: 0.6309731006622314
+2025-03-24 04:36:09,289:[dual_mode.py:159]:[INFO]: [0] start 9-th OptRanTriGen instance
+2025-03-24 04:36:09,291:[dual_mode.py:178]:[INFO]: [1] output 6-th triples
+2025-03-24 04:36:09,291:[dual_mode.py:187]:[INFO]: [1] finished 8-th OptRanTriGen instance, time: 0.6299488544464111
+2025-03-24 04:36:09,291:[dual_mode.py:159]:[INFO]: [1] start 9-th OptRanTriGen instance
+2025-03-24 04:36:09,293:[dual_mode.py:178]:[INFO]: [2] output 6-th triples
+2025-03-24 04:36:09,293:[dual_mode.py:178]:[INFO]: [3] output 6-th triples
+2025-03-24 04:36:09,293:[dual_mode.py:187]:[INFO]: [2] finished 8-th OptRanTriGen instance, time: 0.6349880695343018
+2025-03-24 04:36:09,293:[dual_mode.py:159]:[INFO]: [2] start 9-th OptRanTriGen instance
+2025-03-24 04:36:09,293:[dual_mode.py:187]:[INFO]: [3] finished 8-th OptRanTriGen instance, time: 0.6317510604858398
+2025-03-24 04:36:09,293:[dual_mode.py:159]:[INFO]: [3] start 9-th OptRanTriGen instance
+2025-03-24 04:36:09,920:[dual_mode.py:178]:[INFO]: [0] output 7-th triples
+2025-03-24 04:36:09,920:[dual_mode.py:187]:[INFO]: [0] finished 9-th OptRanTriGen instance, time: 0.6313505172729492
+2025-03-24 04:36:09,920:[dual_mode.py:159]:[INFO]: [0] start 10-th OptRanTriGen instance
+2025-03-24 04:36:09,923:[dual_mode.py:178]:[INFO]: [1] output 7-th triples
+2025-03-24 04:36:09,923:[dual_mode.py:187]:[INFO]: [1] finished 9-th OptRanTriGen instance, time: 0.6313128471374512
+2025-03-24 04:36:09,923:[dual_mode.py:159]:[INFO]: [1] start 10-th OptRanTriGen instance
+2025-03-24 04:36:09,924:[dual_mode.py:178]:[INFO]: [2] output 7-th triples
+2025-03-24 04:36:09,924:[dual_mode.py:178]:[INFO]: [3] output 7-th triples
+2025-03-24 04:36:09,924:[dual_mode.py:187]:[INFO]: [2] finished 9-th OptRanTriGen instance, time: 0.6305832862854004
+2025-03-24 04:36:09,924:[dual_mode.py:187]:[INFO]: [3] finished 9-th OptRanTriGen instance, time: 0.630455732345581
+2025-03-24 04:36:09,924:[dual_mode.py:159]:[INFO]: [2] start 10-th OptRanTriGen instance
+2025-03-24 04:36:09,924:[dual_mode.py:159]:[INFO]: [3] start 10-th OptRanTriGen instance
+2025-03-24 04:36:10,046:[dual_mode.py:97]:[INFO]: [1] Starting tcv-BA
+2025-03-24 04:36:10,046:[dual_mode.py:97]:[INFO]: [0] Starting tcv-BA
+2025-03-24 04:36:10,046:[dual_mode.py:104]:[INFO]: [1] proposal: 9
+2025-03-24 04:36:10,046:[dual_mode.py:104]:[INFO]: [0] proposal: 9
+2025-03-24 04:36:10,047:[dual_mode.py:97]:[INFO]: [3] Starting tcv-BA
+2025-03-24 04:36:10,048:[dual_mode.py:97]:[INFO]: [2] Starting tcv-BA
+2025-03-24 04:36:10,048:[dual_mode.py:104]:[INFO]: [3] proposal: 9
+2025-03-24 04:36:10,048:[dual_mode.py:104]:[INFO]: [2] proposal: 9
+2025-03-24 04:36:10,212:[dual_mode.py:108]:[INFO]: [1] tcv-BA finished! agreed round: 9, time:0.16645026206970215 (seconds)
+2025-03-24 04:36:10,213:[dual_mode.py:108]:[INFO]: [3] tcv-BA finished! agreed round: 9, time:0.16516709327697754 (seconds)
+2025-03-24 04:36:10,213:[dual_mode.py:108]:[INFO]: [2] tcv-BA finished! agreed round: 9, time:0.1651163101196289 (seconds)
+2025-03-24 04:36:10,214:[dual_mode.py:108]:[INFO]: [0] tcv-BA finished! agreed round: 9, time:0.16872620582580566 (seconds)
+2025-03-24 04:36:10,551:[dual_mode.py:178]:[INFO]: [2] output 8-th triples
+2025-03-24 04:36:10,551:[dual_mode.py:178]:[INFO]: [3] output 8-th triples
+2025-03-24 04:36:10,551:[dual_mode.py:209]:[INFO]: [2] Total bytes sent out aa: 1775953
+2025-03-24 04:36:10,551:[dual_mode.py:209]:[INFO]: [3] Total bytes sent out aa: 1775938
+2025-03-24 04:36:10,551:[dual_mode.py:210]:[INFO]: [2] OptRanTriGen finished! triples: 1800, time: 6.450216293334961 (seconds)
+2025-03-24 04:36:10,551:[dual_mode.py:210]:[INFO]: [3] OptRanTriGen finished! triples: 1800, time: 6.496698617935181 (seconds)
+2025-03-24 04:36:10,551:[dual_mode.py:178]:[INFO]: [1] output 8-th triples
+2025-03-24 04:36:10,551:[dual_mode.py:209]:[INFO]: [1] Total bytes sent out aa: 2184389
+2025-03-24 04:36:10,551:[dual_mode.py:210]:[INFO]: [1] OptRanTriGen finished! triples: 1800, time: 6.493715524673462 (seconds)
+2025-03-24 04:36:10,551:[dual_mode.py:178]:[INFO]: [0] output 8-th triples
+2025-03-24 04:36:10,551:[dual_mode.py:209]:[INFO]: [0] Total bytes sent out aa: 2184359
+2025-03-24 04:36:10,551:[dual_mode.py:210]:[INFO]: [0] OptRanTriGen finished! triples: 1800, time: 6.494162559509277 (seconds)
+2025-03-24 04:37:45,452:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 04:37:45,453:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 04:37:45,469:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 04:37:45,469:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 04:37:45,470:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 04:37:45,470:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 04:37:45,490:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 04:37:45,490:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 04:37:46,118:[dual_mode.py:187]:[INFO]: [0] finished 1-th OptRanTriGen instance, time: 0.6281342506408691
+2025-03-24 04:37:46,118:[dual_mode.py:159]:[INFO]: [0] start 2-th OptRanTriGen instance
+2025-03-24 04:37:46,122:[dual_mode.py:187]:[INFO]: [1] finished 1-th OptRanTriGen instance, time: 0.6516902446746826
+2025-03-24 04:37:46,122:[dual_mode.py:159]:[INFO]: [1] start 2-th OptRanTriGen instance
+2025-03-24 04:37:46,122:[dual_mode.py:187]:[INFO]: [2] finished 1-th OptRanTriGen instance, time: 0.6521928310394287
+2025-03-24 04:37:46,122:[dual_mode.py:159]:[INFO]: [2] start 2-th OptRanTriGen instance
+2025-03-24 04:37:46,123:[dual_mode.py:187]:[INFO]: [3] finished 1-th OptRanTriGen instance, time: 0.6694788932800293
+2025-03-24 04:37:46,123:[dual_mode.py:159]:[INFO]: [3] start 2-th OptRanTriGen instance
+2025-03-24 04:37:46,747:[dual_mode.py:187]:[INFO]: [0] finished 2-th OptRanTriGen instance, time: 0.6288418769836426
+2025-03-24 04:37:46,747:[dual_mode.py:159]:[INFO]: [0] start 3-th OptRanTriGen instance
+2025-03-24 04:37:46,750:[dual_mode.py:187]:[INFO]: [2] finished 2-th OptRanTriGen instance, time: 0.6272013187408447
+2025-03-24 04:37:46,750:[dual_mode.py:187]:[INFO]: [3] finished 2-th OptRanTriGen instance, time: 0.6267340183258057
+2025-03-24 04:37:46,750:[dual_mode.py:159]:[INFO]: [2] start 3-th OptRanTriGen instance
+2025-03-24 04:37:46,750:[dual_mode.py:187]:[INFO]: [1] finished 2-th OptRanTriGen instance, time: 0.6278407573699951
+2025-03-24 04:37:46,750:[dual_mode.py:159]:[INFO]: [3] start 3-th OptRanTriGen instance
+2025-03-24 04:37:46,750:[dual_mode.py:159]:[INFO]: [1] start 3-th OptRanTriGen instance
+2025-03-24 04:37:47,378:[dual_mode.py:178]:[INFO]: [0] output 1-th triples
+2025-03-24 04:37:47,378:[dual_mode.py:187]:[INFO]: [0] finished 3-th OptRanTriGen instance, time: 0.6300854682922363
+2025-03-24 04:37:47,378:[dual_mode.py:159]:[INFO]: [0] start 4-th OptRanTriGen instance
+2025-03-24 04:37:47,378:[dual_mode.py:178]:[INFO]: [2] output 1-th triples
+2025-03-24 04:37:47,378:[dual_mode.py:187]:[INFO]: [2] finished 3-th OptRanTriGen instance, time: 0.6280817985534668
+2025-03-24 04:37:47,378:[dual_mode.py:178]:[INFO]: [3] output 1-th triples
+2025-03-24 04:37:47,378:[dual_mode.py:159]:[INFO]: [2] start 4-th OptRanTriGen instance
+2025-03-24 04:37:47,378:[dual_mode.py:187]:[INFO]: [3] finished 3-th OptRanTriGen instance, time: 0.6280949115753174
+2025-03-24 04:37:47,379:[dual_mode.py:159]:[INFO]: [3] start 4-th OptRanTriGen instance
+2025-03-24 04:37:47,380:[dual_mode.py:178]:[INFO]: [1] output 1-th triples
+2025-03-24 04:37:47,380:[dual_mode.py:187]:[INFO]: [1] finished 3-th OptRanTriGen instance, time: 0.6293797492980957
+2025-03-24 04:37:47,380:[dual_mode.py:159]:[INFO]: [1] start 4-th OptRanTriGen instance
+2025-03-24 04:37:48,009:[dual_mode.py:178]:[INFO]: [0] output 2-th triples
+2025-03-24 04:37:48,009:[dual_mode.py:187]:[INFO]: [0] finished 4-th OptRanTriGen instance, time: 0.6312768459320068
+2025-03-24 04:37:48,009:[dual_mode.py:159]:[INFO]: [0] start 5-th OptRanTriGen instance
+2025-03-24 04:37:48,011:[dual_mode.py:178]:[INFO]: [2] output 2-th triples
+2025-03-24 04:37:48,011:[dual_mode.py:178]:[INFO]: [3] output 2-th triples
+2025-03-24 04:37:48,011:[dual_mode.py:187]:[INFO]: [2] finished 4-th OptRanTriGen instance, time: 0.6323635578155518
+2025-03-24 04:37:48,011:[dual_mode.py:159]:[INFO]: [2] start 5-th OptRanTriGen instance
+2025-03-24 04:37:48,011:[dual_mode.py:187]:[INFO]: [3] finished 4-th OptRanTriGen instance, time: 0.6322605609893799
+2025-03-24 04:37:48,011:[dual_mode.py:159]:[INFO]: [3] start 5-th OptRanTriGen instance
+2025-03-24 04:37:48,014:[dual_mode.py:178]:[INFO]: [1] output 2-th triples
+2025-03-24 04:37:48,014:[dual_mode.py:187]:[INFO]: [1] finished 4-th OptRanTriGen instance, time: 0.633465051651001
+2025-03-24 04:37:48,014:[dual_mode.py:159]:[INFO]: [1] start 5-th OptRanTriGen instance
+2025-03-24 04:37:48,646:[dual_mode.py:178]:[INFO]: [0] output 3-th triples
+2025-03-24 04:37:48,646:[dual_mode.py:187]:[INFO]: [0] finished 5-th OptRanTriGen instance, time: 0.6367950439453125
+2025-03-24 04:37:48,646:[dual_mode.py:159]:[INFO]: [0] start 6-th OptRanTriGen instance
+2025-03-24 04:37:48,649:[dual_mode.py:178]:[INFO]: [2] output 3-th triples
+2025-03-24 04:37:48,649:[dual_mode.py:178]:[INFO]: [3] output 3-th triples
+2025-03-24 04:37:48,649:[dual_mode.py:187]:[INFO]: [2] finished 5-th OptRanTriGen instance, time: 0.6379857063293457
+2025-03-24 04:37:48,649:[dual_mode.py:159]:[INFO]: [2] start 6-th OptRanTriGen instance
+2025-03-24 04:37:48,649:[dual_mode.py:187]:[INFO]: [3] finished 5-th OptRanTriGen instance, time: 0.6380124092102051
+2025-03-24 04:37:48,649:[dual_mode.py:159]:[INFO]: [3] start 6-th OptRanTriGen instance
+2025-03-24 04:37:48,649:[dual_mode.py:178]:[INFO]: [1] output 3-th triples
+2025-03-24 04:37:48,650:[dual_mode.py:187]:[INFO]: [1] finished 5-th OptRanTriGen instance, time: 0.6354305744171143
+2025-03-24 04:37:48,650:[dual_mode.py:159]:[INFO]: [1] start 6-th OptRanTriGen instance
+2025-03-24 04:37:49,278:[dual_mode.py:178]:[INFO]: [0] output 4-th triples
+2025-03-24 04:37:49,279:[dual_mode.py:187]:[INFO]: [0] finished 6-th OptRanTriGen instance, time: 0.6322848796844482
+2025-03-24 04:37:49,279:[dual_mode.py:159]:[INFO]: [0] start 7-th OptRanTriGen instance
+2025-03-24 04:37:49,280:[dual_mode.py:178]:[INFO]: [1] output 4-th triples
+2025-03-24 04:37:49,280:[dual_mode.py:187]:[INFO]: [1] finished 6-th OptRanTriGen instance, time: 0.6296572685241699
+2025-03-24 04:37:49,280:[dual_mode.py:159]:[INFO]: [1] start 7-th OptRanTriGen instance
+2025-03-24 04:37:49,281:[dual_mode.py:178]:[INFO]: [2] output 4-th triples
+2025-03-24 04:37:49,282:[dual_mode.py:187]:[INFO]: [2] finished 6-th OptRanTriGen instance, time: 0.6318526268005371
+2025-03-24 04:37:49,282:[dual_mode.py:159]:[INFO]: [2] start 7-th OptRanTriGen instance
+2025-03-24 04:37:49,282:[dual_mode.py:178]:[INFO]: [3] output 4-th triples
+2025-03-24 04:37:49,282:[dual_mode.py:187]:[INFO]: [3] finished 6-th OptRanTriGen instance, time: 0.6322941780090332
+2025-03-24 04:37:49,282:[dual_mode.py:159]:[INFO]: [3] start 7-th OptRanTriGen instance
+2025-03-24 04:37:49,913:[dual_mode.py:178]:[INFO]: [0] output 5-th triples
+2025-03-24 04:37:49,913:[dual_mode.py:187]:[INFO]: [0] finished 7-th OptRanTriGen instance, time: 0.6341400146484375
+2025-03-24 04:37:49,913:[dual_mode.py:159]:[INFO]: [0] start 8-th OptRanTriGen instance
+2025-03-24 04:37:49,916:[dual_mode.py:178]:[INFO]: [1] output 5-th triples
+2025-03-24 04:37:49,916:[dual_mode.py:187]:[INFO]: [1] finished 7-th OptRanTriGen instance, time: 0.6361784934997559
+2025-03-24 04:37:49,916:[dual_mode.py:159]:[INFO]: [1] start 8-th OptRanTriGen instance
+2025-03-24 04:37:49,916:[dual_mode.py:178]:[INFO]: [2] output 5-th triples
+2025-03-24 04:37:49,917:[dual_mode.py:178]:[INFO]: [3] output 5-th triples
+2025-03-24 04:37:49,917:[dual_mode.py:187]:[INFO]: [2] finished 7-th OptRanTriGen instance, time: 0.6347761154174805
+2025-03-24 04:37:49,917:[dual_mode.py:159]:[INFO]: [2] start 8-th OptRanTriGen instance
+2025-03-24 04:37:49,917:[dual_mode.py:187]:[INFO]: [3] finished 7-th OptRanTriGen instance, time: 0.6343202590942383
+2025-03-24 04:37:49,917:[dual_mode.py:159]:[INFO]: [3] start 8-th OptRanTriGen instance
+2025-03-24 04:37:50,554:[dual_mode.py:178]:[INFO]: [0] output 6-th triples
+2025-03-24 04:37:50,554:[dual_mode.py:187]:[INFO]: [0] finished 8-th OptRanTriGen instance, time: 0.641340970993042
+2025-03-24 04:37:50,554:[dual_mode.py:159]:[INFO]: [0] start 9-th OptRanTriGen instance
+2025-03-24 04:37:50,557:[dual_mode.py:178]:[INFO]: [2] output 6-th triples
+2025-03-24 04:37:50,557:[dual_mode.py:178]:[INFO]: [1] output 6-th triples
+2025-03-24 04:37:50,557:[dual_mode.py:187]:[INFO]: [2] finished 8-th OptRanTriGen instance, time: 0.6398403644561768
+2025-03-24 04:37:50,557:[dual_mode.py:178]:[INFO]: [3] output 6-th triples
+2025-03-24 04:37:50,557:[dual_mode.py:187]:[INFO]: [1] finished 8-th OptRanTriGen instance, time: 0.6405003070831299
+2025-03-24 04:37:50,557:[dual_mode.py:159]:[INFO]: [2] start 9-th OptRanTriGen instance
+2025-03-24 04:37:50,557:[dual_mode.py:187]:[INFO]: [3] finished 8-th OptRanTriGen instance, time: 0.6398701667785645
+2025-03-24 04:37:50,557:[dual_mode.py:159]:[INFO]: [1] start 9-th OptRanTriGen instance
+2025-03-24 04:37:50,557:[dual_mode.py:159]:[INFO]: [3] start 9-th OptRanTriGen instance
+2025-03-24 04:37:51,183:[dual_mode.py:178]:[INFO]: [0] output 7-th triples
+2025-03-24 04:37:51,183:[dual_mode.py:187]:[INFO]: [0] finished 9-th OptRanTriGen instance, time: 0.6286988258361816
+2025-03-24 04:37:51,183:[dual_mode.py:159]:[INFO]: [0] start 10-th OptRanTriGen instance
+2025-03-24 04:37:51,184:[dual_mode.py:178]:[INFO]: [1] output 7-th triples
+2025-03-24 04:37:51,185:[dual_mode.py:187]:[INFO]: [1] finished 9-th OptRanTriGen instance, time: 0.6270990371704102
+2025-03-24 04:37:51,185:[dual_mode.py:159]:[INFO]: [1] start 10-th OptRanTriGen instance
+2025-03-24 04:37:51,186:[dual_mode.py:178]:[INFO]: [3] output 7-th triples
+2025-03-24 04:37:51,186:[dual_mode.py:187]:[INFO]: [3] finished 9-th OptRanTriGen instance, time: 0.6284310817718506
+2025-03-24 04:37:51,186:[dual_mode.py:159]:[INFO]: [3] start 10-th OptRanTriGen instance
+2025-03-24 04:37:51,186:[dual_mode.py:178]:[INFO]: [2] output 7-th triples
+2025-03-24 04:37:51,186:[dual_mode.py:187]:[INFO]: [2] finished 9-th OptRanTriGen instance, time: 0.6289222240447998
+2025-03-24 04:37:51,186:[dual_mode.py:159]:[INFO]: [2] start 10-th OptRanTriGen instance
+2025-03-24 04:37:51,311:[dual_mode.py:97]:[INFO]: [0] Starting tcv-BA
+2025-03-24 04:37:51,311:[dual_mode.py:97]:[INFO]: [1] Starting tcv-BA
+2025-03-24 04:37:51,311:[dual_mode.py:104]:[INFO]: [1] proposal: 9
+2025-03-24 04:37:51,311:[dual_mode.py:104]:[INFO]: [0] proposal: 9
+2025-03-24 04:37:51,313:[dual_mode.py:97]:[INFO]: [2] Starting tcv-BA
+2025-03-24 04:37:51,313:[dual_mode.py:104]:[INFO]: [2] proposal: 9
+2025-03-24 04:37:51,314:[dual_mode.py:97]:[INFO]: [3] Starting tcv-BA
+2025-03-24 04:37:51,314:[dual_mode.py:104]:[INFO]: [3] proposal: 9
+2025-03-24 04:37:51,478:[dual_mode.py:108]:[INFO]: [3] tcv-BA finished! agreed round: 9, time:0.16365814208984375 (seconds)
+2025-03-24 04:37:51,478:[dual_mode.py:108]:[INFO]: [2] tcv-BA finished! agreed round: 9, time:0.16509652137756348 (seconds)
+2025-03-24 04:37:51,478:[dual_mode.py:108]:[INFO]: [1] tcv-BA finished! agreed round: 9, time:0.1670987606048584 (seconds)
+2025-03-24 04:37:51,479:[dual_mode.py:108]:[INFO]: [0] tcv-BA finished! agreed round: 9, time:0.16761207580566406 (seconds)
+2025-03-24 04:37:51,817:[dual_mode.py:178]:[INFO]: [0] output 8-th triples
+2025-03-24 04:37:51,817:[dual_mode.py:209]:[INFO]: [0] Total bytes sent out aa: 2184358
+2025-03-24 04:37:51,818:[dual_mode.py:210]:[INFO]: [0] OptRanTriGen finished! triples: 1800, time: 6.327625274658203 (seconds)
+2025-03-24 04:37:51,817:[dual_mode.py:178]:[INFO]: [2] output 8-th triples
+2025-03-24 04:37:51,818:[dual_mode.py:209]:[INFO]: [2] Total bytes sent out aa: 1775966
+2025-03-24 04:37:51,818:[dual_mode.py:210]:[INFO]: [2] OptRanTriGen finished! triples: 1800, time: 6.348182678222656 (seconds)
+2025-03-24 04:37:51,819:[dual_mode.py:178]:[INFO]: [3] output 8-th triples
+2025-03-24 04:37:51,819:[dual_mode.py:209]:[INFO]: [3] Total bytes sent out aa: 1775959
+2025-03-24 04:37:51,819:[dual_mode.py:210]:[INFO]: [3] OptRanTriGen finished! triples: 1800, time: 6.3660728931427 (seconds)
+2025-03-24 04:37:51,821:[dual_mode.py:178]:[INFO]: [1] output 8-th triples
+2025-03-24 04:37:51,821:[dual_mode.py:209]:[INFO]: [1] Total bytes sent out aa: 2184356
+2025-03-24 04:37:51,821:[dual_mode.py:210]:[INFO]: [1] OptRanTriGen finished! triples: 1800, time: 6.3517537117004395 (seconds)
+2025-03-24 16:08:00,425:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 16:08:00,425:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 16:08:00,426:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 16:08:00,426:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 16:08:00,458:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 16:08:00,458:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 16:08:00,489:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 16:08:00,489:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 16:08:01,113:[dual_mode.py:187]:[INFO]: [0] finished 1-th OptRanTriGen instance, time: 0.6235549449920654
+2025-03-24 16:08:01,113:[dual_mode.py:159]:[INFO]: [0] start 2-th OptRanTriGen instance
+2025-03-24 16:08:01,116:[dual_mode.py:187]:[INFO]: [1] finished 1-th OptRanTriGen instance, time: 0.6895756721496582
+2025-03-24 16:08:01,116:[dual_mode.py:159]:[INFO]: [1] start 2-th OptRanTriGen instance
+2025-03-24 16:08:01,116:[dual_mode.py:187]:[INFO]: [3] finished 1-th OptRanTriGen instance, time: 0.658118486404419
+2025-03-24 16:08:01,116:[dual_mode.py:187]:[INFO]: [2] finished 1-th OptRanTriGen instance, time: 0.6903791427612305
+2025-03-24 16:08:01,117:[dual_mode.py:159]:[INFO]: [3] start 2-th OptRanTriGen instance
+2025-03-24 16:08:01,117:[dual_mode.py:159]:[INFO]: [2] start 2-th OptRanTriGen instance
+2025-03-24 16:08:01,744:[dual_mode.py:187]:[INFO]: [0] finished 2-th OptRanTriGen instance, time: 0.6314444541931152
+2025-03-24 16:08:01,745:[dual_mode.py:159]:[INFO]: [0] start 3-th OptRanTriGen instance
+2025-03-24 16:08:01,748:[dual_mode.py:187]:[INFO]: [2] finished 2-th OptRanTriGen instance, time: 0.6311752796173096
+2025-03-24 16:08:01,748:[dual_mode.py:187]:[INFO]: [1] finished 2-th OptRanTriGen instance, time: 0.6323931217193604
+2025-03-24 16:08:01,748:[dual_mode.py:159]:[INFO]: [2] start 3-th OptRanTriGen instance
+2025-03-24 16:08:01,748:[dual_mode.py:159]:[INFO]: [1] start 3-th OptRanTriGen instance
+2025-03-24 16:08:01,748:[dual_mode.py:187]:[INFO]: [3] finished 2-th OptRanTriGen instance, time: 0.6314048767089844
+2025-03-24 16:08:01,749:[dual_mode.py:159]:[INFO]: [3] start 3-th OptRanTriGen instance
+2025-03-24 16:08:02,379:[dual_mode.py:178]:[INFO]: [0] output 1-th triples
+2025-03-24 16:08:02,379:[dual_mode.py:187]:[INFO]: [0] finished 3-th OptRanTriGen instance, time: 0.6346142292022705
+2025-03-24 16:08:02,379:[dual_mode.py:159]:[INFO]: [0] start 4-th OptRanTriGen instance
+2025-03-24 16:08:02,383:[dual_mode.py:178]:[INFO]: [1] output 1-th triples
+2025-03-24 16:08:02,383:[dual_mode.py:178]:[INFO]: [2] output 1-th triples
+2025-03-24 16:08:02,383:[dual_mode.py:178]:[INFO]: [3] output 1-th triples
+2025-03-24 16:08:02,383:[dual_mode.py:187]:[INFO]: [1] finished 3-th OptRanTriGen instance, time: 0.6340072154998779
+2025-03-24 16:08:02,383:[dual_mode.py:187]:[INFO]: [2] finished 3-th OptRanTriGen instance, time: 0.6340482234954834
+2025-03-24 16:08:02,383:[dual_mode.py:159]:[INFO]: [1] start 4-th OptRanTriGen instance
+2025-03-24 16:08:02,383:[dual_mode.py:187]:[INFO]: [3] finished 3-th OptRanTriGen instance, time: 0.6339504718780518
+2025-03-24 16:08:02,383:[dual_mode.py:159]:[INFO]: [2] start 4-th OptRanTriGen instance
+2025-03-24 16:08:02,383:[dual_mode.py:159]:[INFO]: [3] start 4-th OptRanTriGen instance
+2025-03-24 16:08:03,007:[dual_mode.py:178]:[INFO]: [0] output 2-th triples
+2025-03-24 16:08:03,007:[dual_mode.py:187]:[INFO]: [0] finished 4-th OptRanTriGen instance, time: 0.6277687549591064
+2025-03-24 16:08:03,007:[dual_mode.py:159]:[INFO]: [0] start 5-th OptRanTriGen instance
+2025-03-24 16:08:03,009:[dual_mode.py:178]:[INFO]: [1] output 2-th triples
+2025-03-24 16:08:03,009:[dual_mode.py:187]:[INFO]: [1] finished 4-th OptRanTriGen instance, time: 0.6259112358093262
+2025-03-24 16:08:03,009:[dual_mode.py:159]:[INFO]: [1] start 5-th OptRanTriGen instance
+2025-03-24 16:08:03,011:[dual_mode.py:178]:[INFO]: [2] output 2-th triples
+2025-03-24 16:08:03,011:[dual_mode.py:187]:[INFO]: [2] finished 4-th OptRanTriGen instance, time: 0.6276576519012451
+2025-03-24 16:08:03,011:[dual_mode.py:178]:[INFO]: [3] output 2-th triples
+2025-03-24 16:08:03,011:[dual_mode.py:159]:[INFO]: [2] start 5-th OptRanTriGen instance
+2025-03-24 16:08:03,011:[dual_mode.py:187]:[INFO]: [3] finished 4-th OptRanTriGen instance, time: 0.6277594566345215
+2025-03-24 16:08:03,011:[dual_mode.py:159]:[INFO]: [3] start 5-th OptRanTriGen instance
+2025-03-24 16:08:03,646:[dual_mode.py:178]:[INFO]: [0] output 3-th triples
+2025-03-24 16:08:03,646:[dual_mode.py:187]:[INFO]: [0] finished 5-th OptRanTriGen instance, time: 0.6387460231781006
+2025-03-24 16:08:03,646:[dual_mode.py:159]:[INFO]: [0] start 6-th OptRanTriGen instance
+2025-03-24 16:08:03,648:[dual_mode.py:178]:[INFO]: [1] output 3-th triples
+2025-03-24 16:08:03,648:[dual_mode.py:187]:[INFO]: [1] finished 5-th OptRanTriGen instance, time: 0.6389925479888916
+2025-03-24 16:08:03,649:[dual_mode.py:159]:[INFO]: [1] start 6-th OptRanTriGen instance
+2025-03-24 16:08:03,650:[dual_mode.py:178]:[INFO]: [3] output 3-th triples
+2025-03-24 16:08:03,650:[dual_mode.py:178]:[INFO]: [2] output 3-th triples
+2025-03-24 16:08:03,651:[dual_mode.py:187]:[INFO]: [3] finished 5-th OptRanTriGen instance, time: 0.6390538215637207
+2025-03-24 16:08:03,651:[dual_mode.py:187]:[INFO]: [2] finished 5-th OptRanTriGen instance, time: 0.6393013000488281
+2025-03-24 16:08:03,651:[dual_mode.py:159]:[INFO]: [3] start 6-th OptRanTriGen instance
+2025-03-24 16:08:03,651:[dual_mode.py:159]:[INFO]: [2] start 6-th OptRanTriGen instance
+2025-03-24 16:08:04,281:[dual_mode.py:178]:[INFO]: [0] output 4-th triples
+2025-03-24 16:08:04,281:[dual_mode.py:187]:[INFO]: [0] finished 6-th OptRanTriGen instance, time: 0.6346981525421143
+2025-03-24 16:08:04,281:[dual_mode.py:159]:[INFO]: [0] start 7-th OptRanTriGen instance
+2025-03-24 16:08:04,285:[dual_mode.py:178]:[INFO]: [2] output 4-th triples
+2025-03-24 16:08:04,285:[dual_mode.py:178]:[INFO]: [3] output 4-th triples
+2025-03-24 16:08:04,285:[dual_mode.py:178]:[INFO]: [1] output 4-th triples
+2025-03-24 16:08:04,285:[dual_mode.py:187]:[INFO]: [2] finished 6-th OptRanTriGen instance, time: 0.6337785720825195
+2025-03-24 16:08:04,285:[dual_mode.py:187]:[INFO]: [3] finished 6-th OptRanTriGen instance, time: 0.6338574886322021
+2025-03-24 16:08:04,285:[dual_mode.py:187]:[INFO]: [1] finished 6-th OptRanTriGen instance, time: 0.6362392902374268
+2025-03-24 16:08:04,285:[dual_mode.py:159]:[INFO]: [2] start 7-th OptRanTriGen instance
+2025-03-24 16:08:04,285:[dual_mode.py:159]:[INFO]: [3] start 7-th OptRanTriGen instance
+2025-03-24 16:08:04,285:[dual_mode.py:159]:[INFO]: [1] start 7-th OptRanTriGen instance
+2025-03-24 16:08:04,913:[dual_mode.py:178]:[INFO]: [0] output 5-th triples
+2025-03-24 16:08:04,913:[dual_mode.py:187]:[INFO]: [0] finished 7-th OptRanTriGen instance, time: 0.6322739124298096
+2025-03-24 16:08:04,913:[dual_mode.py:159]:[INFO]: [0] start 8-th OptRanTriGen instance
+2025-03-24 16:08:04,916:[dual_mode.py:178]:[INFO]: [1] output 5-th triples
+2025-03-24 16:08:04,916:[dual_mode.py:178]:[INFO]: [2] output 5-th triples
+2025-03-24 16:08:04,916:[dual_mode.py:178]:[INFO]: [3] output 5-th triples
+2025-03-24 16:08:04,916:[dual_mode.py:187]:[INFO]: [1] finished 7-th OptRanTriGen instance, time: 0.6307616233825684
+2025-03-24 16:08:04,916:[dual_mode.py:187]:[INFO]: [2] finished 7-th OptRanTriGen instance, time: 0.6308658123016357
+2025-03-24 16:08:04,916:[dual_mode.py:187]:[INFO]: [3] finished 7-th OptRanTriGen instance, time: 0.6308941841125488
+2025-03-24 16:08:04,916:[dual_mode.py:159]:[INFO]: [1] start 8-th OptRanTriGen instance
+2025-03-24 16:08:04,916:[dual_mode.py:159]:[INFO]: [2] start 8-th OptRanTriGen instance
+2025-03-24 16:08:04,916:[dual_mode.py:159]:[INFO]: [3] start 8-th OptRanTriGen instance
+2025-03-24 16:08:05,558:[dual_mode.py:178]:[INFO]: [0] output 6-th triples
+2025-03-24 16:08:05,558:[dual_mode.py:187]:[INFO]: [0] finished 8-th OptRanTriGen instance, time: 0.6445724964141846
+2025-03-24 16:08:05,558:[dual_mode.py:159]:[INFO]: [0] start 9-th OptRanTriGen instance
+2025-03-24 16:08:05,561:[dual_mode.py:178]:[INFO]: [3] output 6-th triples
+2025-03-24 16:08:05,562:[dual_mode.py:187]:[INFO]: [3] finished 8-th OptRanTriGen instance, time: 0.6449377536773682
+2025-03-24 16:08:05,562:[dual_mode.py:178]:[INFO]: [1] output 6-th triples
+2025-03-24 16:08:05,562:[dual_mode.py:159]:[INFO]: [3] start 9-th OptRanTriGen instance
+2025-03-24 16:08:05,562:[dual_mode.py:187]:[INFO]: [1] finished 8-th OptRanTriGen instance, time: 0.6451656818389893
+2025-03-24 16:08:05,562:[dual_mode.py:159]:[INFO]: [1] start 9-th OptRanTriGen instance
+2025-03-24 16:08:05,562:[dual_mode.py:178]:[INFO]: [2] output 6-th triples
+2025-03-24 16:08:05,562:[dual_mode.py:187]:[INFO]: [2] finished 8-th OptRanTriGen instance, time: 0.6454501152038574
+2025-03-24 16:08:05,562:[dual_mode.py:159]:[INFO]: [2] start 9-th OptRanTriGen instance
+2025-03-24 16:08:06,190:[dual_mode.py:178]:[INFO]: [0] output 7-th triples
+2025-03-24 16:08:06,190:[dual_mode.py:187]:[INFO]: [0] finished 9-th OptRanTriGen instance, time: 0.631706953048706
+2025-03-24 16:08:06,190:[dual_mode.py:159]:[INFO]: [0] start 10-th OptRanTriGen instance
+2025-03-24 16:08:06,192:[dual_mode.py:178]:[INFO]: [3] output 7-th triples
+2025-03-24 16:08:06,192:[dual_mode.py:178]:[INFO]: [2] output 7-th triples
+2025-03-24 16:08:06,192:[dual_mode.py:187]:[INFO]: [3] finished 9-th OptRanTriGen instance, time: 0.6304049491882324
+2025-03-24 16:08:06,192:[dual_mode.py:187]:[INFO]: [2] finished 9-th OptRanTriGen instance, time: 0.6298718452453613
+2025-03-24 16:08:06,193:[dual_mode.py:159]:[INFO]: [2] start 10-th OptRanTriGen instance
+2025-03-24 16:08:06,193:[dual_mode.py:159]:[INFO]: [3] start 10-th OptRanTriGen instance
+2025-03-24 16:08:06,192:[dual_mode.py:178]:[INFO]: [1] output 7-th triples
+2025-03-24 16:08:06,193:[dual_mode.py:187]:[INFO]: [1] finished 9-th OptRanTriGen instance, time: 0.630474328994751
+2025-03-24 16:08:06,193:[dual_mode.py:159]:[INFO]: [1] start 10-th OptRanTriGen instance
+2025-03-24 16:08:06,316:[dual_mode.py:97]:[INFO]: [0] Starting tcv-BA
+2025-03-24 16:08:06,316:[dual_mode.py:97]:[INFO]: [1] Starting tcv-BA
+2025-03-24 16:08:06,316:[dual_mode.py:104]:[INFO]: [1] proposal: 9
+2025-03-24 16:08:06,316:[dual_mode.py:104]:[INFO]: [0] proposal: 9
+2025-03-24 16:08:06,318:[dual_mode.py:97]:[INFO]: [3] Starting tcv-BA
+2025-03-24 16:08:06,318:[dual_mode.py:104]:[INFO]: [3] proposal: 9
+2025-03-24 16:08:06,325:[dual_mode.py:97]:[INFO]: [2] Starting tcv-BA
+2025-03-24 16:08:06,325:[dual_mode.py:104]:[INFO]: [2] proposal: 9
+2025-03-24 16:08:06,472:[dual_mode.py:108]:[INFO]: [0] tcv-BA finished! agreed round: 9, time:0.1562795639038086 (seconds)
+2025-03-24 16:08:06,473:[dual_mode.py:108]:[INFO]: [1] tcv-BA finished! agreed round: 9, time:0.15669655799865723 (seconds)
+2025-03-24 16:08:06,473:[dual_mode.py:108]:[INFO]: [2] tcv-BA finished! agreed round: 9, time:0.14867925643920898 (seconds)
+2025-03-24 16:08:06,484:[dual_mode.py:108]:[INFO]: [3] tcv-BA finished! agreed round: 9, time:0.16558289527893066 (seconds)
+2025-03-24 16:08:06,813:[dual_mode.py:178]:[INFO]: [0] output 8-th triples
+2025-03-24 16:08:06,813:[dual_mode.py:209]:[INFO]: [0] Total bytes sent out aa: 2184379
+2025-03-24 16:08:06,813:[dual_mode.py:210]:[INFO]: [0] OptRanTriGen finished! triples: 1800, time: 6.323940753936768 (seconds)
+2025-03-24 16:08:06,813:[dual_mode.py:178]:[INFO]: [1] output 8-th triples
+2025-03-24 16:08:06,813:[dual_mode.py:209]:[INFO]: [1] Total bytes sent out aa: 2184386
+2025-03-24 16:08:06,813:[dual_mode.py:210]:[INFO]: [1] OptRanTriGen finished! triples: 1800, time: 6.387370347976685 (seconds)
+2025-03-24 16:08:06,813:[dual_mode.py:178]:[INFO]: [3] output 8-th triples
+2025-03-24 16:08:06,813:[dual_mode.py:209]:[INFO]: [3] Total bytes sent out aa: 1775995
+2025-03-24 16:08:06,813:[dual_mode.py:210]:[INFO]: [3] OptRanTriGen finished! triples: 1800, time: 6.355064868927002 (seconds)
+2025-03-24 16:08:06,817:[dual_mode.py:178]:[INFO]: [2] output 8-th triples
+2025-03-24 16:08:06,817:[dual_mode.py:209]:[INFO]: [2] Total bytes sent out aa: 1775968
+2025-03-24 16:08:06,817:[dual_mode.py:210]:[INFO]: [2] OptRanTriGen finished! triples: 1800, time: 6.391558885574341 (seconds)
+2025-03-24 16:19:16,832:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 16:19:16,833:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 16:19:16,833:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 16:19:16,834:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 16:19:16,853:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 16:19:16,854:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 16:19:16,853:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 16:19:16,854:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 16:19:17,397:[dual_mode.py:187]:[INFO]: [0] finished 1-th OptRanTriGen instance, time: 0.5642998218536377
+2025-03-24 16:19:17,397:[dual_mode.py:187]:[INFO]: [1] finished 1-th OptRanTriGen instance, time: 0.563305139541626
+2025-03-24 16:19:17,398:[dual_mode.py:159]:[INFO]: [0] start 2-th OptRanTriGen instance
+2025-03-24 16:19:17,398:[dual_mode.py:159]:[INFO]: [1] start 2-th OptRanTriGen instance
+2025-03-24 16:19:17,398:[dual_mode.py:187]:[INFO]: [3] finished 1-th OptRanTriGen instance, time: 0.5439229011535645
+2025-03-24 16:19:17,398:[dual_mode.py:159]:[INFO]: [3] start 2-th OptRanTriGen instance
+2025-03-24 16:19:17,398:[dual_mode.py:187]:[INFO]: [2] finished 1-th OptRanTriGen instance, time: 0.5436279773712158
+2025-03-24 16:19:17,398:[dual_mode.py:159]:[INFO]: [2] start 2-th OptRanTriGen instance
+2025-03-24 16:19:17,938:[dual_mode.py:187]:[INFO]: [0] finished 2-th OptRanTriGen instance, time: 0.5399878025054932
+2025-03-24 16:19:17,938:[dual_mode.py:159]:[INFO]: [0] start 3-th OptRanTriGen instance
+2025-03-24 16:19:17,938:[dual_mode.py:187]:[INFO]: [1] finished 2-th OptRanTriGen instance, time: 0.5399200916290283
+2025-03-24 16:19:17,938:[dual_mode.py:159]:[INFO]: [1] start 3-th OptRanTriGen instance
+2025-03-24 16:19:17,939:[dual_mode.py:187]:[INFO]: [2] finished 2-th OptRanTriGen instance, time: 0.5410728454589844
+2025-03-24 16:19:17,940:[dual_mode.py:159]:[INFO]: [2] start 3-th OptRanTriGen instance
+2025-03-24 16:19:17,940:[dual_mode.py:187]:[INFO]: [3] finished 2-th OptRanTriGen instance, time: 0.5414550304412842
+2025-03-24 16:19:17,940:[dual_mode.py:159]:[INFO]: [3] start 3-th OptRanTriGen instance
+2025-03-24 16:19:18,485:[dual_mode.py:178]:[INFO]: [3] output 1-th triples
+2025-03-24 16:19:18,485:[dual_mode.py:187]:[INFO]: [3] finished 3-th OptRanTriGen instance, time: 0.5446555614471436
+2025-03-24 16:19:18,485:[dual_mode.py:178]:[INFO]: [1] output 1-th triples
+2025-03-24 16:19:18,485:[dual_mode.py:159]:[INFO]: [3] start 4-th OptRanTriGen instance
+2025-03-24 16:19:18,485:[dual_mode.py:187]:[INFO]: [1] finished 3-th OptRanTriGen instance, time: 0.5468237400054932
+2025-03-24 16:19:18,485:[dual_mode.py:159]:[INFO]: [1] start 4-th OptRanTriGen instance
+2025-03-24 16:19:18,486:[dual_mode.py:178]:[INFO]: [0] output 1-th triples
+2025-03-24 16:19:18,487:[dual_mode.py:178]:[INFO]: [2] output 1-th triples
+2025-03-24 16:19:18,487:[dual_mode.py:187]:[INFO]: [0] finished 3-th OptRanTriGen instance, time: 0.5487802028656006
+2025-03-24 16:19:18,487:[dual_mode.py:187]:[INFO]: [2] finished 3-th OptRanTriGen instance, time: 0.5468277931213379
+2025-03-24 16:19:18,487:[dual_mode.py:159]:[INFO]: [0] start 4-th OptRanTriGen instance
+2025-03-24 16:19:18,487:[dual_mode.py:159]:[INFO]: [2] start 4-th OptRanTriGen instance
+2025-03-24 16:19:19,028:[dual_mode.py:178]:[INFO]: [0] output 2-th triples
+2025-03-24 16:19:19,028:[dual_mode.py:187]:[INFO]: [0] finished 4-th OptRanTriGen instance, time: 0.5409913063049316
+2025-03-24 16:19:19,028:[dual_mode.py:159]:[INFO]: [0] start 5-th OptRanTriGen instance
+2025-03-24 16:19:19,030:[dual_mode.py:178]:[INFO]: [1] output 2-th triples
+2025-03-24 16:19:19,030:[dual_mode.py:187]:[INFO]: [1] finished 4-th OptRanTriGen instance, time: 0.5451726913452148
+2025-03-24 16:19:19,030:[dual_mode.py:178]:[INFO]: [3] output 2-th triples
+2025-03-24 16:19:19,030:[dual_mode.py:159]:[INFO]: [1] start 5-th OptRanTriGen instance
+2025-03-24 16:19:19,030:[dual_mode.py:178]:[INFO]: [2] output 2-th triples
+2025-03-24 16:19:19,030:[dual_mode.py:187]:[INFO]: [3] finished 4-th OptRanTriGen instance, time: 0.545478105545044
+2025-03-24 16:19:19,031:[dual_mode.py:187]:[INFO]: [2] finished 4-th OptRanTriGen instance, time: 0.5434625148773193
+2025-03-24 16:19:19,031:[dual_mode.py:159]:[INFO]: [3] start 5-th OptRanTriGen instance
+2025-03-24 16:19:19,031:[dual_mode.py:159]:[INFO]: [2] start 5-th OptRanTriGen instance
+2025-03-24 16:19:19,574:[dual_mode.py:178]:[INFO]: [0] output 3-th triples
+2025-03-24 16:19:19,574:[dual_mode.py:187]:[INFO]: [0] finished 5-th OptRanTriGen instance, time: 0.5460901260375977
+2025-03-24 16:19:19,574:[dual_mode.py:159]:[INFO]: [0] start 6-th OptRanTriGen instance
+2025-03-24 16:19:19,576:[dual_mode.py:178]:[INFO]: [2] output 3-th triples
+2025-03-24 16:19:19,576:[dual_mode.py:178]:[INFO]: [1] output 3-th triples
+2025-03-24 16:19:19,576:[dual_mode.py:187]:[INFO]: [2] finished 5-th OptRanTriGen instance, time: 0.5449576377868652
+2025-03-24 16:19:19,576:[dual_mode.py:159]:[INFO]: [2] start 6-th OptRanTriGen instance
+2025-03-24 16:19:19,576:[dual_mode.py:187]:[INFO]: [1] finished 5-th OptRanTriGen instance, time: 0.5453567504882812
+2025-03-24 16:19:19,576:[dual_mode.py:178]:[INFO]: [3] output 3-th triples
+2025-03-24 16:19:19,576:[dual_mode.py:159]:[INFO]: [1] start 6-th OptRanTriGen instance
+2025-03-24 16:19:19,576:[dual_mode.py:187]:[INFO]: [3] finished 5-th OptRanTriGen instance, time: 0.545311689376831
+2025-03-24 16:19:19,576:[dual_mode.py:159]:[INFO]: [3] start 6-th OptRanTriGen instance
+2025-03-24 16:19:20,122:[dual_mode.py:178]:[INFO]: [3] output 4-th triples
+2025-03-24 16:19:20,122:[dual_mode.py:178]:[INFO]: [1] output 4-th triples
+2025-03-24 16:19:20,122:[dual_mode.py:178]:[INFO]: [2] output 4-th triples
+2025-03-24 16:19:20,123:[dual_mode.py:178]:[INFO]: [0] output 4-th triples
+2025-03-24 16:19:20,123:[dual_mode.py:187]:[INFO]: [1] finished 6-th OptRanTriGen instance, time: 0.5462100505828857
+2025-03-24 16:19:20,123:[dual_mode.py:187]:[INFO]: [3] finished 6-th OptRanTriGen instance, time: 0.5460531711578369
+2025-03-24 16:19:20,123:[dual_mode.py:187]:[INFO]: [2] finished 6-th OptRanTriGen instance, time: 0.546363115310669
+2025-03-24 16:19:20,123:[dual_mode.py:159]:[INFO]: [1] start 7-th OptRanTriGen instance
+2025-03-24 16:19:20,123:[dual_mode.py:187]:[INFO]: [0] finished 6-th OptRanTriGen instance, time: 0.5482461452484131
+2025-03-24 16:19:20,123:[dual_mode.py:159]:[INFO]: [3] start 7-th OptRanTriGen instance
+2025-03-24 16:19:20,123:[dual_mode.py:159]:[INFO]: [2] start 7-th OptRanTriGen instance
+2025-03-24 16:19:20,123:[dual_mode.py:159]:[INFO]: [0] start 7-th OptRanTriGen instance
+2025-03-24 16:19:20,665:[dual_mode.py:178]:[INFO]: [0] output 5-th triples
+2025-03-24 16:19:20,666:[dual_mode.py:187]:[INFO]: [0] finished 7-th OptRanTriGen instance, time: 0.5424439907073975
+2025-03-24 16:19:20,666:[dual_mode.py:159]:[INFO]: [0] start 8-th OptRanTriGen instance
+2025-03-24 16:19:20,667:[dual_mode.py:178]:[INFO]: [2] output 5-th triples
+2025-03-24 16:19:20,667:[dual_mode.py:187]:[INFO]: [2] finished 7-th OptRanTriGen instance, time: 0.543989896774292
+2025-03-24 16:19:20,667:[dual_mode.py:159]:[INFO]: [2] start 8-th OptRanTriGen instance
+2025-03-24 16:19:20,667:[dual_mode.py:178]:[INFO]: [3] output 5-th triples
+2025-03-24 16:19:20,667:[dual_mode.py:178]:[INFO]: [1] output 5-th triples
+2025-03-24 16:19:20,667:[dual_mode.py:187]:[INFO]: [3] finished 7-th OptRanTriGen instance, time: 0.5443539619445801
+2025-03-24 16:19:20,667:[dual_mode.py:187]:[INFO]: [1] finished 7-th OptRanTriGen instance, time: 0.5445137023925781
+2025-03-24 16:19:20,668:[dual_mode.py:159]:[INFO]: [3] start 8-th OptRanTriGen instance
+2025-03-24 16:19:20,668:[dual_mode.py:159]:[INFO]: [1] start 8-th OptRanTriGen instance
+2025-03-24 16:19:21,213:[dual_mode.py:178]:[INFO]: [1] output 6-th triples
+2025-03-24 16:19:21,213:[dual_mode.py:187]:[INFO]: [1] finished 8-th OptRanTriGen instance, time: 0.5449731349945068
+2025-03-24 16:19:21,213:[dual_mode.py:159]:[INFO]: [1] start 9-th OptRanTriGen instance
+2025-03-24 16:19:21,214:[dual_mode.py:178]:[INFO]: [3] output 6-th triples
+2025-03-24 16:19:21,214:[dual_mode.py:178]:[INFO]: [2] output 6-th triples
+2025-03-24 16:19:21,214:[dual_mode.py:187]:[INFO]: [3] finished 8-th OptRanTriGen instance, time: 0.546419620513916
+2025-03-24 16:19:21,214:[dual_mode.py:178]:[INFO]: [0] output 6-th triples
+2025-03-24 16:19:21,214:[dual_mode.py:187]:[INFO]: [2] finished 8-th OptRanTriGen instance, time: 0.5468831062316895
+2025-03-24 16:19:21,214:[dual_mode.py:159]:[INFO]: [3] start 9-th OptRanTriGen instance
+2025-03-24 16:19:21,214:[dual_mode.py:187]:[INFO]: [0] finished 8-th OptRanTriGen instance, time: 0.5486197471618652
+2025-03-24 16:19:21,214:[dual_mode.py:159]:[INFO]: [2] start 9-th OptRanTriGen instance
+2025-03-24 16:19:21,215:[dual_mode.py:159]:[INFO]: [0] start 9-th OptRanTriGen instance
+2025-03-24 16:19:21,758:[dual_mode.py:178]:[INFO]: [0] output 7-th triples
+2025-03-24 16:19:21,758:[dual_mode.py:187]:[INFO]: [0] finished 9-th OptRanTriGen instance, time: 0.5430364608764648
+2025-03-24 16:19:21,758:[dual_mode.py:159]:[INFO]: [0] start 10-th OptRanTriGen instance
+2025-03-24 16:19:21,760:[dual_mode.py:178]:[INFO]: [2] output 7-th triples
+2025-03-24 16:19:21,760:[dual_mode.py:178]:[INFO]: [1] output 7-th triples
+2025-03-24 16:19:21,760:[dual_mode.py:178]:[INFO]: [3] output 7-th triples
+2025-03-24 16:19:21,760:[dual_mode.py:187]:[INFO]: [2] finished 9-th OptRanTriGen instance, time: 0.5451171398162842
+2025-03-24 16:19:21,760:[dual_mode.py:187]:[INFO]: [1] finished 9-th OptRanTriGen instance, time: 0.5467066764831543
+2025-03-24 16:19:21,760:[dual_mode.py:187]:[INFO]: [3] finished 9-th OptRanTriGen instance, time: 0.5452766418457031
+2025-03-24 16:19:21,760:[dual_mode.py:159]:[INFO]: [2] start 10-th OptRanTriGen instance
+2025-03-24 16:19:21,760:[dual_mode.py:159]:[INFO]: [1] start 10-th OptRanTriGen instance
+2025-03-24 16:19:21,760:[dual_mode.py:159]:[INFO]: [3] start 10-th OptRanTriGen instance
+2025-03-24 16:19:21,799:[dual_mode.py:97]:[INFO]: [0] Starting tcv-BA
+2025-03-24 16:19:21,799:[dual_mode.py:97]:[INFO]: [1] Starting tcv-BA
+2025-03-24 16:19:21,799:[dual_mode.py:104]:[INFO]: [0] proposal: 9
+2025-03-24 16:19:21,799:[dual_mode.py:104]:[INFO]: [1] proposal: 9
+2025-03-24 16:19:21,800:[dual_mode.py:97]:[INFO]: [2] Starting tcv-BA
+2025-03-24 16:19:21,800:[dual_mode.py:97]:[INFO]: [3] Starting tcv-BA
+2025-03-24 16:19:21,800:[dual_mode.py:104]:[INFO]: [2] proposal: 9
+2025-03-24 16:19:21,800:[dual_mode.py:104]:[INFO]: [3] proposal: 9
+2025-03-24 16:19:21,949:[dual_mode.py:108]:[INFO]: [3] tcv-BA finished! agreed round: 9, time:0.14834260940551758 (seconds)
+2025-03-24 16:19:21,949:[dual_mode.py:108]:[INFO]: [2] tcv-BA finished! agreed round: 9, time:0.14841341972351074 (seconds)
+2025-03-24 16:19:21,949:[dual_mode.py:108]:[INFO]: [1] tcv-BA finished! agreed round: 9, time:0.149688720703125 (seconds)
+2025-03-24 16:19:21,952:[dual_mode.py:108]:[INFO]: [0] tcv-BA finished! agreed round: 9, time:0.1523425579071045 (seconds)
+2025-03-24 16:19:22,305:[dual_mode.py:178]:[INFO]: [1] output 8-th triples
+2025-03-24 16:19:22,305:[dual_mode.py:209]:[INFO]: [1] Total bytes sent out aa: 575008
+2025-03-24 16:19:22,305:[dual_mode.py:178]:[INFO]: [2] output 8-th triples
+2025-03-24 16:19:22,305:[dual_mode.py:210]:[INFO]: [1] OptRanTriGen finished! triples: 468, time: 5.4715564250946045 (seconds)
+2025-03-24 16:19:22,305:[dual_mode.py:178]:[INFO]: [3] output 8-th triples
+2025-03-24 16:19:22,305:[dual_mode.py:209]:[INFO]: [2] Total bytes sent out aa: 468477
+2025-03-24 16:19:22,305:[dual_mode.py:210]:[INFO]: [2] OptRanTriGen finished! triples: 468, time: 5.451499700546265 (seconds)
+2025-03-24 16:19:22,305:[dual_mode.py:209]:[INFO]: [3] Total bytes sent out aa: 468484
+2025-03-24 16:19:22,305:[dual_mode.py:210]:[INFO]: [3] OptRanTriGen finished! triples: 468, time: 5.451745986938477 (seconds)
+2025-03-24 16:19:22,307:[dual_mode.py:178]:[INFO]: [0] output 8-th triples
+2025-03-24 16:19:22,307:[dual_mode.py:209]:[INFO]: [0] Total bytes sent out aa: 575021
+2025-03-24 16:19:22,307:[dual_mode.py:210]:[INFO]: [0] OptRanTriGen finished! triples: 468, time: 5.474413633346558 (seconds)
+2025-03-24 16:19:49,910:[dual_mode.py:149]:[INFO]: [0] start OptRanTriGen
+2025-03-24 16:19:49,911:[dual_mode.py:159]:[INFO]: [0] start 1-th OptRanTriGen instance
+2025-03-24 16:19:49,926:[dual_mode.py:149]:[INFO]: [1] start OptRanTriGen
+2025-03-24 16:19:49,926:[dual_mode.py:159]:[INFO]: [1] start 1-th OptRanTriGen instance
+2025-03-24 16:19:49,931:[dual_mode.py:149]:[INFO]: [2] start OptRanTriGen
+2025-03-24 16:19:49,931:[dual_mode.py:159]:[INFO]: [2] start 1-th OptRanTriGen instance
+2025-03-24 16:19:49,940:[dual_mode.py:149]:[INFO]: [3] start OptRanTriGen
+2025-03-24 16:19:49,941:[dual_mode.py:159]:[INFO]: [3] start 1-th OptRanTriGen instance
+2025-03-24 16:19:50,617:[dual_mode.py:187]:[INFO]: [0] finished 1-th OptRanTriGen instance, time: 0.7052066326141357
+2025-03-24 16:19:50,617:[dual_mode.py:159]:[INFO]: [0] start 2-th OptRanTriGen instance
+2025-03-24 16:19:50,619:[dual_mode.py:187]:[INFO]: [1] finished 1-th OptRanTriGen instance, time: 0.6919469833374023
+2025-03-24 16:19:50,619:[dual_mode.py:187]:[INFO]: [3] finished 1-th OptRanTriGen instance, time: 0.6776809692382812
+2025-03-24 16:19:50,619:[dual_mode.py:159]:[INFO]: [1] start 2-th OptRanTriGen instance
+2025-03-24 16:19:50,619:[dual_mode.py:159]:[INFO]: [3] start 2-th OptRanTriGen instance
+2025-03-24 16:19:50,619:[dual_mode.py:187]:[INFO]: [2] finished 1-th OptRanTriGen instance, time: 0.687389612197876
+2025-03-24 16:19:50,619:[dual_mode.py:159]:[INFO]: [2] start 2-th OptRanTriGen instance
+2025-03-24 16:19:51,165:[dual_mode.py:187]:[INFO]: [0] finished 2-th OptRanTriGen instance, time: 0.5480902194976807
+2025-03-24 16:19:51,165:[dual_mode.py:187]:[INFO]: [3] finished 2-th OptRanTriGen instance, time: 0.5457651615142822
+2025-03-24 16:19:51,165:[dual_mode.py:159]:[INFO]: [0] start 3-th OptRanTriGen instance
+2025-03-24 16:19:51,165:[dual_mode.py:159]:[INFO]: [3] start 3-th OptRanTriGen instance
+2025-03-24 16:19:51,165:[dual_mode.py:187]:[INFO]: [2] finished 2-th OptRanTriGen instance, time: 0.5458247661590576
+2025-03-24 16:19:51,165:[dual_mode.py:187]:[INFO]: [1] finished 2-th OptRanTriGen instance, time: 0.5461945533752441
+2025-03-24 16:19:51,166:[dual_mode.py:159]:[INFO]: [2] start 3-th OptRanTriGen instance
+2025-03-24 16:19:51,166:[dual_mode.py:159]:[INFO]: [1] start 3-th OptRanTriGen instance
+2025-03-24 16:19:51,708:[dual_mode.py:178]:[INFO]: [0] output 1-th triples
+2025-03-24 16:19:51,708:[dual_mode.py:187]:[INFO]: [0] finished 3-th OptRanTriGen instance, time: 0.5425815582275391
+2025-03-24 16:19:51,708:[dual_mode.py:159]:[INFO]: [0] start 4-th OptRanTriGen instance
+2025-03-24 16:19:51,710:[dual_mode.py:178]:[INFO]: [2] output 1-th triples
+2025-03-24 16:19:51,710:[dual_mode.py:178]:[INFO]: [1] output 1-th triples
+2025-03-24 16:19:51,710:[dual_mode.py:187]:[INFO]: [2] finished 3-th OptRanTriGen instance, time: 0.5441322326660156
+2025-03-24 16:19:51,710:[dual_mode.py:187]:[INFO]: [1] finished 3-th OptRanTriGen instance, time: 0.5441594123840332
+2025-03-24 16:19:51,710:[dual_mode.py:159]:[INFO]: [2] start 4-th OptRanTriGen instance
+2025-03-24 16:19:51,710:[dual_mode.py:159]:[INFO]: [1] start 4-th OptRanTriGen instance
+2025-03-24 16:19:51,710:[dual_mode.py:178]:[INFO]: [3] output 1-th triples
+2025-03-24 16:19:51,711:[dual_mode.py:187]:[INFO]: [3] finished 3-th OptRanTriGen instance, time: 0.5449912548065186
+2025-03-24 16:19:51,711:[dual_mode.py:159]:[INFO]: [3] start 4-th OptRanTriGen instance
+2025-03-24 16:19:52,257:[dual_mode.py:178]:[INFO]: [1] output 2-th triples
+2025-03-24 16:19:52,257:[dual_mode.py:178]:[INFO]: [0] output 2-th triples
+2025-03-24 16:19:52,257:[dual_mode.py:178]:[INFO]: [3] output 2-th triples
+2025-03-24 16:19:52,257:[dual_mode.py:187]:[INFO]: [1] finished 4-th OptRanTriGen instance, time: 0.5464162826538086
+2025-03-24 16:19:52,257:[dual_mode.py:187]:[INFO]: [0] finished 4-th OptRanTriGen instance, time: 0.5487518310546875
+2025-03-24 16:19:52,257:[dual_mode.py:187]:[INFO]: [3] finished 4-th OptRanTriGen instance, time: 0.5460708141326904
+2025-03-24 16:19:52,257:[dual_mode.py:159]:[INFO]: [1] start 5-th OptRanTriGen instance
+2025-03-24 16:19:52,257:[dual_mode.py:159]:[INFO]: [0] start 5-th OptRanTriGen instance
+2025-03-24 16:19:52,257:[dual_mode.py:159]:[INFO]: [3] start 5-th OptRanTriGen instance
+2025-03-24 16:19:52,257:[dual_mode.py:178]:[INFO]: [2] output 2-th triples
+2025-03-24 16:19:52,257:[dual_mode.py:187]:[INFO]: [2] finished 4-th OptRanTriGen instance, time: 0.5469205379486084
+2025-03-24 16:19:52,257:[dual_mode.py:159]:[INFO]: [2] start 5-th OptRanTriGen instance
+2025-03-24 16:19:52,799:[dual_mode.py:178]:[INFO]: [0] output 3-th triples
+2025-03-24 16:19:52,799:[dual_mode.py:187]:[INFO]: [0] finished 5-th OptRanTriGen instance, time: 0.541632890701294
+2025-03-24 16:19:52,799:[dual_mode.py:159]:[INFO]: [0] start 6-th OptRanTriGen instance
+2025-03-24 16:19:52,801:[dual_mode.py:178]:[INFO]: [1] output 3-th triples
+2025-03-24 16:19:52,801:[dual_mode.py:178]:[INFO]: [3] output 3-th triples
+2025-03-24 16:19:52,801:[dual_mode.py:178]:[INFO]: [2] output 3-th triples
+2025-03-24 16:19:52,801:[dual_mode.py:187]:[INFO]: [3] finished 5-th OptRanTriGen instance, time: 0.5438635349273682
+2025-03-24 16:19:52,801:[dual_mode.py:187]:[INFO]: [1] finished 5-th OptRanTriGen instance, time: 0.5439674854278564
+2025-03-24 16:19:52,801:[dual_mode.py:187]:[INFO]: [2] finished 5-th OptRanTriGen instance, time: 0.5435738563537598
+2025-03-24 16:19:52,801:[dual_mode.py:159]:[INFO]: [3] start 6-th OptRanTriGen instance
+2025-03-24 16:19:52,801:[dual_mode.py:159]:[INFO]: [1] start 6-th OptRanTriGen instance
+2025-03-24 16:19:52,801:[dual_mode.py:159]:[INFO]: [2] start 6-th OptRanTriGen instance
+2025-03-24 16:19:53,348:[dual_mode.py:178]:[INFO]: [2] output 4-th triples
+2025-03-24 16:19:53,348:[dual_mode.py:187]:[INFO]: [2] finished 6-th OptRanTriGen instance, time: 0.5459277629852295
+2025-03-24 16:19:53,348:[dual_mode.py:159]:[INFO]: [2] start 7-th OptRanTriGen instance
+2025-03-24 16:19:53,348:[dual_mode.py:178]:[INFO]: [0] output 4-th triples
+2025-03-24 16:19:53,348:[dual_mode.py:178]:[INFO]: [3] output 4-th triples
+2025-03-24 16:19:53,348:[dual_mode.py:187]:[INFO]: [0] finished 6-th OptRanTriGen instance, time: 0.5490820407867432
+2025-03-24 16:19:53,348:[dual_mode.py:187]:[INFO]: [3] finished 6-th OptRanTriGen instance, time: 0.5466561317443848
+2025-03-24 16:19:53,348:[dual_mode.py:159]:[INFO]: [0] start 7-th OptRanTriGen instance
+2025-03-24 16:19:53,349:[dual_mode.py:159]:[INFO]: [3] start 7-th OptRanTriGen instance
+2025-03-24 16:19:53,349:[dual_mode.py:178]:[INFO]: [1] output 4-th triples
+2025-03-24 16:19:53,349:[dual_mode.py:187]:[INFO]: [1] finished 6-th OptRanTriGen instance, time: 0.5473313331604004
+2025-03-24 16:19:53,349:[dual_mode.py:159]:[INFO]: [1] start 7-th OptRanTriGen instance
+2025-03-24 16:19:53,892:[dual_mode.py:178]:[INFO]: [0] output 5-th triples
+2025-03-24 16:19:53,892:[dual_mode.py:187]:[INFO]: [0] finished 7-th OptRanTriGen instance, time: 0.5435094833374023
+2025-03-24 16:19:53,892:[dual_mode.py:159]:[INFO]: [0] start 8-th OptRanTriGen instance
+2025-03-24 16:19:53,894:[dual_mode.py:178]:[INFO]: [3] output 5-th triples
+2025-03-24 16:19:53,894:[dual_mode.py:178]:[INFO]: [1] output 5-th triples
+2025-03-24 16:19:53,894:[dual_mode.py:187]:[INFO]: [3] finished 7-th OptRanTriGen instance, time: 0.5454094409942627
+2025-03-24 16:19:53,894:[dual_mode.py:187]:[INFO]: [1] finished 7-th OptRanTriGen instance, time: 0.5447373390197754
+2025-03-24 16:19:53,894:[dual_mode.py:178]:[INFO]: [2] output 5-th triples
+2025-03-24 16:19:53,894:[dual_mode.py:159]:[INFO]: [3] start 8-th OptRanTriGen instance
+2025-03-24 16:19:53,894:[dual_mode.py:159]:[INFO]: [1] start 8-th OptRanTriGen instance
+2025-03-24 16:19:53,894:[dual_mode.py:187]:[INFO]: [2] finished 7-th OptRanTriGen instance, time: 0.5464003086090088
+2025-03-24 16:19:53,895:[dual_mode.py:159]:[INFO]: [2] start 8-th OptRanTriGen instance
+2025-03-24 16:19:54,439:[dual_mode.py:178]:[INFO]: [0] output 6-th triples
+2025-03-24 16:19:54,439:[dual_mode.py:187]:[INFO]: [0] finished 8-th OptRanTriGen instance, time: 0.5463504791259766
+2025-03-24 16:19:54,439:[dual_mode.py:159]:[INFO]: [0] start 9-th OptRanTriGen instance
+2025-03-24 16:19:54,440:[dual_mode.py:178]:[INFO]: [3] output 6-th triples
+2025-03-24 16:19:54,440:[dual_mode.py:187]:[INFO]: [3] finished 8-th OptRanTriGen instance, time: 0.5456531047821045
+2025-03-24 16:19:54,440:[dual_mode.py:178]:[INFO]: [2] output 6-th triples
+2025-03-24 16:19:54,440:[dual_mode.py:159]:[INFO]: [3] start 9-th OptRanTriGen instance
+2025-03-24 16:19:54,440:[dual_mode.py:187]:[INFO]: [2] finished 8-th OptRanTriGen instance, time: 0.5456297397613525
+2025-03-24 16:19:54,441:[dual_mode.py:159]:[INFO]: [2] start 9-th OptRanTriGen instance
+2025-03-24 16:19:54,441:[dual_mode.py:178]:[INFO]: [1] output 6-th triples
+2025-03-24 16:19:54,441:[dual_mode.py:187]:[INFO]: [1] finished 8-th OptRanTriGen instance, time: 0.5461177825927734
+2025-03-24 16:19:54,441:[dual_mode.py:159]:[INFO]: [1] start 9-th OptRanTriGen instance
+2025-03-24 16:19:54,983:[dual_mode.py:178]:[INFO]: [0] output 7-th triples
+2025-03-24 16:19:54,983:[dual_mode.py:187]:[INFO]: [0] finished 9-th OptRanTriGen instance, time: 0.5438859462738037
+2025-03-24 16:19:54,983:[dual_mode.py:159]:[INFO]: [0] start 10-th OptRanTriGen instance
+2025-03-24 16:19:54,985:[dual_mode.py:178]:[INFO]: [2] output 7-th triples
+2025-03-24 16:19:54,985:[dual_mode.py:178]:[INFO]: [3] output 7-th triples
+2025-03-24 16:19:54,985:[dual_mode.py:187]:[INFO]: [2] finished 9-th OptRanTriGen instance, time: 0.5443596839904785
+2025-03-24 16:19:54,985:[dual_mode.py:187]:[INFO]: [3] finished 9-th OptRanTriGen instance, time: 0.54461669921875
+2025-03-24 16:19:54,985:[dual_mode.py:159]:[INFO]: [2] start 10-th OptRanTriGen instance
+2025-03-24 16:19:54,985:[dual_mode.py:178]:[INFO]: [1] output 7-th triples
+2025-03-24 16:19:54,985:[dual_mode.py:159]:[INFO]: [3] start 10-th OptRanTriGen instance
+2025-03-24 16:19:54,986:[dual_mode.py:187]:[INFO]: [1] finished 9-th OptRanTriGen instance, time: 0.5442922115325928
+2025-03-24 16:19:54,986:[dual_mode.py:159]:[INFO]: [1] start 10-th OptRanTriGen instance
+2025-03-24 16:19:55,025:[dual_mode.py:97]:[INFO]: [0] Starting tcv-BA
+2025-03-24 16:19:55,025:[dual_mode.py:97]:[INFO]: [1] Starting tcv-BA
+2025-03-24 16:19:55,025:[dual_mode.py:104]:[INFO]: [0] proposal: 9
+2025-03-24 16:19:55,025:[dual_mode.py:104]:[INFO]: [1] proposal: 9
+2025-03-24 16:19:55,026:[dual_mode.py:97]:[INFO]: [2] Starting tcv-BA
+2025-03-24 16:19:55,026:[dual_mode.py:97]:[INFO]: [3] Starting tcv-BA
+2025-03-24 16:19:55,026:[dual_mode.py:104]:[INFO]: [3] proposal: 9
+2025-03-24 16:19:55,026:[dual_mode.py:104]:[INFO]: [2] proposal: 9
+2025-03-24 16:19:55,177:[dual_mode.py:108]:[INFO]: [3] tcv-BA finished! agreed round: 9, time:0.15053749084472656 (seconds)
+2025-03-24 16:19:55,177:[dual_mode.py:108]:[INFO]: [2] tcv-BA finished! agreed round: 9, time:0.15054035186767578 (seconds)
+2025-03-24 16:19:55,178:[dual_mode.py:108]:[INFO]: [1] tcv-BA finished! agreed round: 9, time:0.1530318260192871 (seconds)
+2025-03-24 16:19:55,188:[dual_mode.py:108]:[INFO]: [0] tcv-BA finished! agreed round: 9, time:0.16327857971191406 (seconds)
+2025-03-24 16:19:55,903:[dual_mode.py:178]:[INFO]: [0] output 8-th triples
+2025-03-24 16:19:55,904:[dual_mode.py:209]:[INFO]: [0] Total bytes sent out aa: 575021
+2025-03-24 16:19:55,904:[dual_mode.py:210]:[INFO]: [0] OptRanTriGen finished! triples: 468, time: 5.992711067199707 (seconds)
+2025-03-24 16:19:55,904:[dual_mode.py:178]:[INFO]: [2] output 8-th triples
+2025-03-24 16:19:55,904:[dual_mode.py:209]:[INFO]: [2] Total bytes sent out aa: 468490
+2025-03-24 16:19:55,904:[dual_mode.py:210]:[INFO]: [2] OptRanTriGen finished! triples: 468, time: 5.972663164138794 (seconds)
+2025-03-24 16:19:55,905:[dual_mode.py:178]:[INFO]: [3] output 8-th triples
+2025-03-24 16:19:55,905:[dual_mode.py:209]:[INFO]: [3] Total bytes sent out aa: 468486
+2025-03-24 16:19:55,905:[dual_mode.py:210]:[INFO]: [3] OptRanTriGen finished! triples: 468, time: 5.9646055698394775 (seconds)
+2025-03-24 16:19:55,905:[dual_mode.py:178]:[INFO]: [1] output 8-th triples
+2025-03-24 16:19:55,906:[dual_mode.py:209]:[INFO]: [1] Total bytes sent out aa: 575009
+2025-03-24 16:19:55,906:[dual_mode.py:210]:[INFO]: [1] OptRanTriGen finished! triples: 468, time: 5.9794921875 (seconds)

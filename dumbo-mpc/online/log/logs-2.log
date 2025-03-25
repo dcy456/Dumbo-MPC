@@ -1,0 +1,18 @@
+2025-03-24 16:20:07,328:[butterfly_network.py:64]:[INFO]: [2] Running permutation network.
+2025-03-24 16:20:07,338:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-0]: 0.009558439254760742
+2025-03-24 16:20:07,346:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-1]: 0.0076982975006103516
+2025-03-24 16:20:07,353:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-2]: 0.007447481155395508
+2025-03-24 16:20:07,361:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-3]: 0.00709843635559082
+2025-03-24 16:20:07,368:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-4]: 0.0072727203369140625
+2025-03-24 16:20:07,375:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-5]: 0.007163524627685547
+2025-03-24 16:20:07,382:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-6]: 0.007049560546875
+2025-03-24 16:20:07,390:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-7]: 0.007178783416748047
+2025-03-24 16:20:07,397:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-8]: 0.007040977478027344
+2025-03-24 16:20:07,404:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-9]: 0.007010459899902344
+2025-03-24 16:20:07,411:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-10]: 0.007078647613525391
+2025-03-24 16:20:07,418:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-11]: 0.007097721099853516
+2025-03-24 16:20:07,425:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-12]: 0.0070345401763916016
+2025-03-24 16:20:07,432:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-13]: 0.007097721099853516
+2025-03-24 16:20:07,440:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-14]: 0.0070607662200927734
+2025-03-24 16:20:07,447:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-15]: 0.007062435150146484
+2025-03-24 16:20:07,450:[butterfly_network.py:73]:[INFO]: [2] finished in 0.12166690826416016 s

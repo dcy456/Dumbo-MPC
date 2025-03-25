@@ -162,3 +162,95 @@ Exception:
 2025-01-21 04:06:05,608:[butterfly_network.py:73]:[INFO]: [3] finished in 0.2949197292327881 s
 2025-01-21 04:06:05,609:[butterfly_network.py:73]:[INFO]: [0] finished in 0.29410696029663086 s
 2025-01-21 04:06:05,609:[butterfly_network.py:73]:[INFO]: [1] finished in 0.29410719871520996 s
+2025-03-24 16:19:33,041:[misc.py:13]:[CRITICAL]: 
+Exception: 
+<Task finished name='Task-7' coro=<Mpc._run() done, defined at /usr/local/lib/python3.8/dist-packages/optimizedhbmpc/mpc.py:221> exception=AssertionError()> 
+<class 'AssertionError'> 
+
+2025-03-24 16:19:33,486:[misc.py:13]:[CRITICAL]: 
+Exception: 
+<Task finished name='Task-7' coro=<Mpc._run() done, defined at /usr/local/lib/python3.8/dist-packages/optimizedhbmpc/mpc.py:221> exception=AssertionError()> 
+<class 'AssertionError'> 
+
+2025-03-24 16:19:36,004:[misc.py:13]:[CRITICAL]: 
+Exception: 
+<Task finished name='Task-7' coro=<Mpc._run() done, defined at /usr/local/lib/python3.8/dist-packages/optimizedhbmpc/mpc.py:221> exception=AssertionError()> 
+<class 'AssertionError'> 
+
+2025-03-24 16:19:36,948:[misc.py:13]:[CRITICAL]: 
+Exception: 
+<Task finished name='Task-7' coro=<Mpc._run() done, defined at /usr/local/lib/python3.8/dist-packages/optimizedhbmpc/mpc.py:221> exception=AssertionError()> 
+<class 'AssertionError'> 
+
+2025-03-24 16:20:07,328:[butterfly_network.py:64]:[INFO]: [2] Running permutation network.
+2025-03-24 16:20:07,329:[butterfly_network.py:64]:[INFO]: [1] Running permutation network.
+2025-03-24 16:20:07,330:[butterfly_network.py:64]:[INFO]: [3] Running permutation network.
+2025-03-24 16:20:07,336:[butterfly_network.py:64]:[INFO]: [0] Running permutation network.
+2025-03-24 16:20:07,338:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-0]: 0.009112119674682617
+2025-03-24 16:20:07,338:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-0]: 0.009558439254760742
+2025-03-24 16:20:07,338:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-0]: 0.008006811141967773
+2025-03-24 16:20:07,346:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-1]: 0.007292509078979492
+2025-03-24 16:20:07,346:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-1]: 0.0076982975006103516
+2025-03-24 16:20:07,346:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-1]: 0.007723093032836914
+2025-03-24 16:20:07,353:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-2]: 0.007277250289916992
+2025-03-24 16:20:07,353:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-2]: 0.0072324275970458984
+2025-03-24 16:20:07,353:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-2]: 0.007447481155395508
+2025-03-24 16:20:07,360:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-3]: 0.0071070194244384766
+2025-03-24 16:20:07,360:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-3]: 0.007246732711791992
+2025-03-24 16:20:07,361:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-3]: 0.00709843635559082
+2025-03-24 16:20:07,368:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-4]: 0.007260322570800781
+2025-03-24 16:20:07,368:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-4]: 0.007249355316162109
+2025-03-24 16:20:07,368:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-4]: 0.0072727203369140625
+2025-03-24 16:20:07,375:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-5]: 0.007088422775268555
+2025-03-24 16:20:07,375:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-5]: 0.007059574127197266
+2025-03-24 16:20:07,375:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-5]: 0.007163524627685547
+2025-03-24 16:20:07,382:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-6]: 0.0071752071380615234
+2025-03-24 16:20:07,382:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-6]: 0.007185220718383789
+2025-03-24 16:20:07,382:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-6]: 0.007049560546875
+2025-03-24 16:20:07,389:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-7]: 0.007180213928222656
+2025-03-24 16:20:07,389:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-7]: 0.007174015045166016
+2025-03-24 16:20:07,390:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-7]: 0.007178783416748047
+2025-03-24 16:20:07,397:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-8]: 0.006994962692260742
+2025-03-24 16:20:07,397:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-8]: 0.0070569515228271484
+2025-03-24 16:20:07,397:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-8]: 0.007040977478027344
+2025-03-24 16:20:07,404:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-9]: 0.007085084915161133
+2025-03-24 16:20:07,404:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-9]: 0.007117748260498047
+2025-03-24 16:20:07,404:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-9]: 0.007010459899902344
+2025-03-24 16:20:07,411:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-10]: 0.007078647613525391
+2025-03-24 16:20:07,411:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-10]: 0.007153511047363281
+2025-03-24 16:20:07,411:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-10]: 0.0071544647216796875
+2025-03-24 16:20:07,418:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-11]: 0.0070269107818603516
+2025-03-24 16:20:07,418:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-11]: 0.007097721099853516
+2025-03-24 16:20:07,418:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-11]: 0.007104396820068359
+2025-03-24 16:20:07,425:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-12]: 0.00705265998840332
+2025-03-24 16:20:07,425:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-12]: 0.0070345401763916016
+2025-03-24 16:20:07,425:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-12]: 0.007073402404785156
+2025-03-24 16:20:07,432:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-13]: 0.007097721099853516
+2025-03-24 16:20:07,432:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-13]: 0.007138252258300781
+2025-03-24 16:20:07,432:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-13]: 0.0071146488189697266
+2025-03-24 16:20:07,440:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-14]: 0.0070607662200927734
+2025-03-24 16:20:07,440:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-14]: 0.007071733474731445
+2025-03-24 16:20:07,440:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-14]: 0.0070760250091552734
+2025-03-24 16:20:07,447:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-15]: 0.007062435150146484
+2025-03-24 16:20:07,447:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-15]: 0.007094860076904297
+2025-03-24 16:20:07,447:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-15]: 0.007100343704223633
+2025-03-24 16:20:07,450:[butterfly_network.py:73]:[INFO]: [1] finished in 0.12086009979248047 s
+2025-03-24 16:20:07,450:[butterfly_network.py:73]:[INFO]: [3] finished in 0.11945247650146484 s
+2025-03-24 16:20:07,450:[butterfly_network.py:73]:[INFO]: [2] finished in 0.12166690826416016 s
+2025-03-24 16:20:07,465:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-0]: 0.1287705898284912
+2025-03-24 16:20:07,472:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-1]: 0.006284236907958984
+2025-03-24 16:20:07,478:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-2]: 0.0062406063079833984
+2025-03-24 16:20:07,484:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-3]: 0.006214141845703125
+2025-03-24 16:20:07,491:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-4]: 0.006385087966918945
+2025-03-24 16:20:07,497:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-5]: 0.006195545196533203
+2025-03-24 16:20:07,503:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-6]: 0.0060884952545166016
+2025-03-24 16:20:07,509:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-7]: 0.0060923099517822266
+2025-03-24 16:20:07,516:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-8]: 0.006170988082885742
+2025-03-24 16:20:07,522:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-9]: 0.006124734878540039
+2025-03-24 16:20:07,528:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-10]: 0.00604701042175293
+2025-03-24 16:20:07,534:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-11]: 0.0061113834381103516
+2025-03-24 16:20:07,540:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-12]: 0.006150960922241211
+2025-03-24 16:20:07,547:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-13]: 0.006119728088378906
+2025-03-24 16:20:07,553:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-14]: 0.006087779998779297
+2025-03-24 16:20:07,559:[butterfly_network.py:50]:[INFO]: [ButterflyNetwork-15]: 0.0061283111572265625
+2025-03-24 16:20:07,561:[butterfly_network.py:73]:[INFO]: [0] finished in 0.2242133617401123 s

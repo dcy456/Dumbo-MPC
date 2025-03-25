@@ -209,14 +209,16 @@ class dualmode:
         logger.info(f"[{self.my_id}] Total bytes sent out aa: {bytes_sent}")
         logger.info(f'[{self.my_id}] OptRanTriGen finished! triples: {triple_number}, time: {time.time()-start_opt_time} (seconds)')
         
-        def write_bytes_to_file(file_path, byte_data):
-            with open(file_path, 'w') as f:
-                for sublist in byte_data:
-                    for item in sublist:
-                        f.write(str(item) + '\n')
+        # If you wish to store triples, please uncomment the following code.
         
-        # logger.info(f"[{self.my_id}] Total bytes sent out aa: {self.triples}")
-        write_bytes_to_file(f'./opt-triples/{self.my_id}_triples.txt', self.triples)
+        # def write_bytes_to_file(file_path, byte_data):
+        #     with open(file_path, 'w') as f:
+        #         for sublist in byte_data:
+        #             for item in sublist:
+        #                 f.write(str(item) + '\n')
+        
+        # # logger.info(f"[{self.my_id}] Total bytes sent out aa: {self.triples}")
+        # write_bytes_to_file(f'./opt-triples/{self.my_id}_triples.txt', self.triples)
         
         
         # switch to execute the AsyRanTriGen instance

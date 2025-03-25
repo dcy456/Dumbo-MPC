@@ -34,7 +34,7 @@ while true; do
         LOG_FILE="$LOG_DIR/logs-${ID}.log"
         
         # Check if the 'Triple generation finished!' keyword appears in the log file
-        if grep -q -E "Triple generation finished!" "$LOG_FILE"; then
+        if grep -q -E "Triple generation finished!|Random share generation finished!" "$LOG_FILE"; then
             # echo "'Finished' found in $LOG_FILE"
             log_status[$ID]=true
         fi

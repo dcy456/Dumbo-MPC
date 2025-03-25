@@ -113,7 +113,9 @@ class BEAVER:
         filtered_commitments = [item for item in commitment if item is not None ]
         filtered_proofandshares = [item for item in proofsandshares if item is not None ]
         serialized_commitments = json.dumps(filtered_commitments).encode('utf-8')
-        serialized_proofandshares = json.dumps(filtered_proofandshares).encode('utf-8')
+        # serialized_proofandshares = json.dumps(filtered_proofandshares).encode('utf-8')
+        serialized_proofandshares = json.dumps(proofsandshares).encode('utf-8')
+        
 
 
         deserialized_commandprooflist = json.loads(sharesproofs_ab.decode('utf-8')) 
@@ -273,11 +275,14 @@ class BEAVER:
                 
         
         triples = self.beavergen(acsset_beaver, reduction_outputs, reduction_values)
-        def write_bytes_to_file(file_path, byte_data):
-            with open(file_path, 'wb') as file:
-                file.write(byte_data)
         
-        write_bytes_to_file(f'../dualmode/asy-triples/{self.my_id}_triples.txt', triples)
+        # If you wish to store triples, please uncomment the following code.
+        
+        # def write_bytes_to_file(file_path, byte_data):
+        #     with open(file_path, 'wb') as file:
+        #         file.write(byte_data)
+        
+        # write_bytes_to_file(f'../dualmode/asy-triples/{self.my_id}_triples.txt', triples)
 
         reduction_outputs = [None]
         triples = [None]

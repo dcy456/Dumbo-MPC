@@ -107,7 +107,7 @@ The experiment logs are shown at `Dumbo-MPC/dumbo-mpc/OptRanTriGen/log`.
     First, Prepare random shares and Beaver Triples:
     ```bash
     cd Dumbo-MPC/dumbo-mpc/online
-    ./proprecessing.sh 4 16
+    ./preprocessing.sh 4 16
     ```
     All preprocessed data are stored at `dumbo-mpc/online/sharedata_test`.
 

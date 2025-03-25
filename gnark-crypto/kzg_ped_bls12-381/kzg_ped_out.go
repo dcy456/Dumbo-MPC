@@ -383,7 +383,7 @@ func VMmatrixGen(t int) *C.char {
 	for i := 0; i < dim_row; i++ {
 		vm_matrix[i] = make([]fr.Element, dim_col)
 		var temp fr.Element
-		temp.SetInt64(int64(i))
+		temp.SetInt64(int64(i+1))
 		for j := 0; j < dim_col; j++ {
 			ExponentElement := new(big.Int).SetInt64(int64(j))
 			vm_matrix[i][j].Exp(temp, ExponentElement) // Compute temp^j
@@ -881,29 +881,45 @@ func pyProdverify(json_SRS_Vk *C.char, json_zkProof_ab *C.char, json_zkProof_c_z
 }
 
 // lagrangeCoefficient computes the Lagrange coefficient for the given x value.
-func lagrangeCoefficient(xs []fr.Element, x fr.Element) fr.Element {
+func lagrangeCoefficient(xs []fr.Element, x fr.Element, commonset []int) fr.Element {
 	var res fr.Element
-	for i := 0; i < len(xs); i++ {
-		if xs[i] != x {
-			res.Sub(&xs[i], &x)
-			res.Inverse(&res)
-			res.Mul(&xs[i], &res)
-		}
+	res.SetOne()
+	var temp fr.Element
+
+	for _, index := range commonset {
+		if xs[index] != x {
+			temp.Sub(&xs[index], &x)
+			temp.Inverse(&temp)
+			temp.Mul(&xs[index], &temp)
+			res.Mul(&res, &temp)
+		}		
 	}
 	return res
 }
 
+
+func degreereduction(lagrangeCoefficientList []fr.Element, commonset []int, shares_c_2t [][]kzg_ped.OpeningProof) []fr.Element {
+	batchsize := len(shares_c_2t[commonset[0]])
+	c_shares_temp := make([]fr.Element, batchsize)
+	var temp fr.Element
+	for j := 0; j < batchsize; j++ {
+		c_shares_temp[j].SetZero()
+		for _, index := range commonset {
+			temp.Mul(&lagrangeCoefficientList[index], &shares_c_2t[index][j].ClaimedValue)
+			c_shares_temp[j].Add(&c_shares_temp[j], &temp)
+		}
+	}
+	return c_shares_temp
+}
+
+
 // pyTriplesCompute reconstructs triples from secret shares using Lagrange interpolation.
 //
 //export pyTriplesCompute
-func pyTriplesCompute(json_commonset *C.char, json_shares_ab *C.char, json_c_shares *C.char, json_c_com *C.char) *C.char {
+func pyTriplesCompute( json_commonset *C.char, json_shares_ab *C.char, json_c_shares *C.char, json_c_com *C.char) *C.char {
 	var commonset []int
 	_ = json.Unmarshal([]byte(C.GoString(json_commonset)), &commonset)
-
-	commonsetFrElement := make([]fr.Element, len(commonset))
-	for i := 0; i < len(commonset); i++ {
-		commonsetFrElement[i].SetInt64(int64(commonset[i] + 1))
-	}
+	
 
 	var shares_ab []kzg_ped.OpeningProof
 	_ = json.Unmarshal([]byte(C.GoString(json_shares_ab)), &shares_ab)
@@ -911,31 +927,24 @@ func pyTriplesCompute(json_commonset *C.char, json_shares_ab *C.char, json_c_sha
 	var shares_c_2t [][]kzg_ped.OpeningProof
 	_ = json.Unmarshal([]byte(C.GoString(json_c_shares)), &shares_c_2t)
 
-	batchsize := len(shares_c_2t[0])
-	shares_temp := make([][]fr.Element, len(shares_c_2t))
+	total_parties := len(shares_c_2t)
+	commonsetFrElement := make([]fr.Element, total_parties)
 
-	// Reconstruct shares in parallel
-	var wg sync.WaitGroup
-	for i := 0; i < len(shares_c_2t); i++ {
-		wg.Add(1)
-		go func(i int) {
-			defer wg.Done()
-			shares_temp[i] = make([]fr.Element, batchsize)
-			var point fr.Element
-			point.SetInt64(int64(i + 1))
-			lagrangecoeff := lagrangeCoefficient(commonsetFrElement, point)
-			for j := 0; j < batchsize; j++ {
-				shares_temp[i][j].Mul(&lagrangecoeff, &shares_c_2t[i][j].ClaimedValue)
-			}
-		}(i)
+	for _, index := range commonset {
+		commonsetFrElement[index].SetInt64(int64(index + 1))
 	}
 
-	// Wait for all reconstruction tasks to complete
-	wg.Wait()
+	batchsize := len(shares_c_2t[commonset[0]])
+	lagrangeCoefficientList := make([]fr.Element, total_parties)
+	for _, index := range commonset {
+		var point fr.Element
+		point.SetInt64(int64(index + 1))
+		lagrangeCoefficientList[index] = lagrangeCoefficient(commonsetFrElement, point, commonset)
+	}
 
-	// Transpose the reconstructed shares for aggregation
-	tran_shares_temp := transposefrElement(shares_temp)
+	c_shares_temp := degreereduction(lagrangeCoefficientList, commonset, shares_c_2t)
 
+	// Marshal triples to JSON and return as C string
 	var triples kzg_ped.Triples
 	triples.A = make([]fr.Element, batchsize)
 	triples.B = make([]fr.Element, batchsize)
@@ -944,14 +953,84 @@ func pyTriplesCompute(json_commonset *C.char, json_shares_ab *C.char, json_c_sha
 	for i := 0; i < batchsize; i++ {
 		triples.A[i].Set(&shares_ab[i].ClaimedValue)
 		triples.B[i].Set(&shares_ab[i+batchsize].ClaimedValue)
-		for j := 0; j < len(shares_c_2t); j++ {
-			triples.C[i].Add(&triples.C[i], &tran_shares_temp[i][j])
-		}
+		triples.C[i].Set(&c_shares_temp[i])
 	}
 
 	// Marshal triples to JSON and return as C string
 	json_triples, _ := json.Marshal(triples)
 	return C.CString(string(json_triples))
+}
+
+
+//export pyReconstruct
+func pyReconstruct(json_0 *C.char, json_1 *C.char, json_2 *C.char, json_3 *C.char,){
+	// fmt.Println("alltriples", alltriples)
+	alltriples := make([]kzg_ped.Triples, 4)
+	_ = json.Unmarshal([]byte(C.GoString(json_0)), &alltriples[0])
+	_ = json.Unmarshal([]byte(C.GoString(json_1)), &alltriples[1])
+	_ = json.Unmarshal([]byte(C.GoString(json_2)), &alltriples[2])
+	_ = json.Unmarshal([]byte(C.GoString(json_3)), &alltriples[3])
+	// fmt.Println("alltriples", alltriples)
+	log.Println("alltriples", alltriples[0])
+	commonset := []int{2, 3}
+	commonsetFrElement := make([]fr.Element, 4)
+	for _, index := range commonset {
+		commonsetFrElement[index].SetInt64(int64(index + 1))
+		// log.Println("commonsetFrElement: ", index,  commonsetFrElement[index])
+	}
+	
+
+	lagrangeCoefficientList := make([]fr.Element, 4)
+	for _, index := range commonset {
+		var point fr.Element
+		point.SetInt64(int64(index + 1))
+		// log.Println("point: ", index, point)
+		lagrangeCoefficientList[index] = lagrangeCoefficient(commonsetFrElement, point, commonset)
+	}
+
+
+	// interpolation
+	var res_A fr.Element
+	var temp fr.Element
+	res_A.SetZero()
+	for _, index := range commonset {
+		temp.Mul(&lagrangeCoefficientList[index], &alltriples[index].A[0])
+		res_A.Add(&res_A, &temp)
+	}
+	log.Println("res_A: ", res_A)
+
+
+	var res_B fr.Element
+	res_B.SetZero()
+	for _, index := range commonset {
+		temp.Mul(&lagrangeCoefficientList[index], &alltriples[index].B[0])
+		res_B.Add(&res_B, &temp)
+	}
+	log.Println("res_B: ", res_B)
+
+	var res_C fr.Element
+
+	res_C.SetZero()
+	for _, index := range commonset {
+		temp.Mul(&lagrangeCoefficientList[index], &alltriples[index].C[0])
+		res_C.Add(&res_C, &temp)
+	}
+	log.Println("res_C: ", res_C)
+
+	var res_product fr.Element
+	res_product.Mul(&res_A, &res_B)
+	log.Println("res_product: ", res_product)
+	log.Println("res_product: ", res_product.Mul(&res_A, &res_B))
+	var ele_one fr.Element 
+	ele_one.SetOne()
+	
+	// log.Println("one: ", ele_one)
+	// log.Println("one: ", ele_one.SetOne())
+	// log.Println("one: ", ele_one.SetInt64(int64(1)))
+	// log.Println("2: ", ele_one.SetInt64(int64(2)))
+
+
+
 }
 
 func main() {
@@ -993,12 +1072,13 @@ func main() {
 
 	// }
 
-	batchsize := 3
+	batchsize := 1
 
 	secret := make([]fr.Element, batchsize)
 	for i := 0; i < batchsize; i++ {
 		secret[i].SetRandom()
 	}
+	log.Println("secret: ", secret)
 
 	log.Printf("t=:%d, n=:%d, batchsize:%d\n", t, n, batchsize)
 
@@ -1025,6 +1105,7 @@ func main() {
 	// test begin
 	var point fr.Element
 	point.SetInt64(int64(0 + 1))
+
 	Aggcom, Aggproofs := randomCombine(commitments, batchproofsofallparties[0])
 	if kzg_ped.Verify(&Aggcom, &Aggproofs, point, SRS.Vk) {
 		log.Printf("randomCombine verification passed:\n")
@@ -1034,96 +1115,139 @@ func main() {
 		log.Printf("pass:\n")
 	}
 
-	// //test end
+	// test lagrange interpolation
+	commonset := []int{2, 3}
+	commonsetFrElement := make([]fr.Element, n)
+	for _, index := range commonset {
+		commonsetFrElement[index].SetInt64(int64(index + 1))
+		log.Println("commonsetFrElement: ", index,  commonsetFrElement[index])
+	}
+	
 
-	// begin_time = time.Now()
+	lagrangeCoefficientList := make([]fr.Element, n)
+	for _, index := range commonset {
+		var point fr.Element
+		point.SetInt64(int64(index + 1))
+		log.Println("point: ", index, point)
+		lagrangeCoefficientList[index] = lagrangeCoefficient(commonsetFrElement, point, commonset)
+		log.Println("lagrangeCoefficientList: ",index,lagrangeCoefficientList[index])
+	}
+
+	c_shares_temp := degreereduction(lagrangeCoefficientList, commonset, batchproofsofallparties)
+
+	log.Println("larange interpolation: ", c_shares_temp)
+	log.Println("larange interpolation: ", secret)
+	if c_shares_temp[0].Equal(&secret[0]){
+		log.Printf("Interpolation correct:\n")
+	}
+
+	var triples kzg_ped.Triples
+	triples.C = make([]fr.Element, batchsize)
+
+	for i := 0; i < batchsize; i++ {
+
+		triples.C[i].Set(&c_shares_temp[i])
+		// for j := 0; j < len(shares_c_2t); j++ {
+		// 	// triples.C[i].Add(&triples.C[i], &tran_shares_temp[i][j])
+		// }
+	}
+
+	// Marshal triples to JSON and return as C string
+	// json_triples, _ := json.Marshal(triples)
+	log.Println(triples)
+
+
+
+	// // //test end
+
+	// // begin_time = time.Now()
+	// // for i := 0; i < n; i++ {
+	// // 	point.SetInt64(int64(i + 1))
+	// // 	BatchVerify(&commitments, &batchproofsofallparties[i], point, SRS.Vk)
+	// // 	if kzg_ped.Verify(&commitments[0], &batchproofsofallparties[i][0], point, SRS.Vk) {
+	// // 		log.Printf("pass:\n")
+	// // 	}
+	// // 	if batchproofsofallparties[i][0].H.Equal(&batchproofsofallparties[0][0].H) {
+	// // 		log.Printf("all witness equal:\n")
+	// // 	}
+	// // }
+	// // end_time = time.Now()
+	// // log.Printf("time to verify proofs: %s\n", end_time.Sub(begin_time))
+
+	// // var point fr.Element
+	// // var res1 kzg_ped.OpeningProof
+	// // fmt.Println("open for point", 1)
+	// // point.SetString("1")
+	// // res1, err := kzg_ped.Open(polynomialList[0], polynomialList_aux[0], point, SRS.Pk)
+	// // if err != nil {
+	// // 	fmt.Println("wrong proof")
+	// // }
+	// // fmt.Println("res1 proof", res1.H)
+	// // fmt.Println("open for point", 2)
+
+	// // var point1 fr.Element
+	// // point1.SetString("2")
+	// // res2, err := kzg_ped.Open(polynomialList[0], polynomialList_aux[0], point1, SRS.Pk)
+	// // if err != nil {
+	// // 	fmt.Println("wrong proof")
+	// // }
+	// // fmt.Println("res2 proof", res2.H)
+	// // if !res1.H.Equal(&res2.H) {
+	// // 	fmt.Println("correct proof")
+	// // }
+
+	// serialized_secretkeys := make([][]byte, n)
+	// secretkeys := make([]fr.Element, n)
 	// for i := 0; i < n; i++ {
-	// 	point.SetInt64(int64(i + 1))
-	// 	BatchVerify(&commitments, &batchproofsofallparties[i], point, SRS.Vk)
-	// 	if kzg_ped.Verify(&commitments[0], &batchproofsofallparties[i][0], point, SRS.Vk) {
-	// 		log.Printf("pass:\n")
-	// 	}
-	// 	if batchproofsofallparties[i][0].H.Equal(&batchproofsofallparties[0][0].H) {
-	// 		log.Printf("all witness equal:\n")
-	// 	}
+	// 	secretkeys[i].SetRandom()                                 // Generate a random secret key
+	// 	serialized_secretkeys[i], _ = secretkeys[i].MarshalJSON() // Serialize the secret key
 	// }
-	// end_time = time.Now()
-	// log.Printf("time to verify proofs: %s\n", end_time.Sub(begin_time))
 
-	// var point fr.Element
-	// var res1 kzg_ped.OpeningProof
-	// fmt.Println("open for point", 1)
-	// point.SetString("1")
-	// res1, err := kzg_ped.Open(polynomialList[0], polynomialList_aux[0], point, SRS.Pk)
+	// var secretKeysAsStrings []string
+	// for _, key := range serialized_secretkeys {
+	// 	secretKeysAsStrings = append(secretKeysAsStrings, base64.StdEncoding.EncodeToString(key))
+	// }
+
+	// jsonMap := make(map[string]string)
+	// for i, key := range secretKeysAsStrings {
+	// 	jsonMap[fmt.Sprintf("%d", i)] = key 
+	// }
+
+	// jsonBytes, err := json.Marshal(jsonMap)
 	// if err != nil {
-	// 	fmt.Println("wrong proof")
+	// 	fmt.Println("Error marshaling JSON:", err)
+	// 	return
 	// }
-	// fmt.Println("res1 proof", res1.H)
-	// fmt.Println("open for point", 2)
 
-	// var point1 fr.Element
-	// point1.SetString("2")
-	// res2, err := kzg_ped.Open(polynomialList[0], polynomialList_aux[0], point1, SRS.Pk)
+	// fmt.Println("JSON Bytes:", string(jsonBytes))
+
+	// var decodedMap map[string]string
+	// err = json.Unmarshal(jsonBytes, &decodedMap)
 	// if err != nil {
-	// 	fmt.Println("wrong proof")
-	// }
-	// fmt.Println("res2 proof", res2.H)
-	// if !res1.H.Equal(&res2.H) {
-	// 	fmt.Println("correct proof")
+	// 	fmt.Println("Error unmarshaling JSON:", err)
+	// 	return
 	// }
 
-	serialized_secretkeys := make([][]byte, n)
-	secretkeys := make([]fr.Element, n)
-	for i := 0; i < n; i++ {
-		secretkeys[i].SetRandom()                                 // Generate a random secret key
-		serialized_secretkeys[i], _ = secretkeys[i].MarshalJSON() // Serialize the secret key
-	}
+	// fmt.Println("Decoded Map:", decodedMap)
 
-	var secretKeysAsStrings []string
-	for _, key := range serialized_secretkeys {
-		secretKeysAsStrings = append(secretKeysAsStrings, base64.StdEncoding.EncodeToString(key))
-	}
+	// var decodedSecretKeys []fr.Element
+	// for _, base64Key := range decodedMap {
+	// 	decodedBytes, err := base64.StdEncoding.DecodeString(base64Key)
+	// 	if err != nil {
+	// 		fmt.Println("Error decoding Base64:", err)
+	// 		return
+	// 	}
 
-	jsonMap := make(map[string]string)
-	for i, key := range secretKeysAsStrings {
-		jsonMap[fmt.Sprintf("%d", i)] = key 
-	}
+	// 	var secretKey fr.Element
+	// 	err = secretKey.UnmarshalJSON(decodedBytes)
+	// 	if err != nil {
+	// 		fmt.Println("Error unmarshaling secret key:", err)
+	// 		return
+	// 	}
 
-	jsonBytes, err := json.Marshal(jsonMap)
-	if err != nil {
-		fmt.Println("Error marshaling JSON:", err)
-		return
-	}
+	// 	decodedSecretKeys = append(decodedSecretKeys, secretKey)
+	// }
 
-	fmt.Println("JSON Bytes:", string(jsonBytes))
-
-	var decodedMap map[string]string
-	err = json.Unmarshal(jsonBytes, &decodedMap)
-	if err != nil {
-		fmt.Println("Error unmarshaling JSON:", err)
-		return
-	}
-
-	fmt.Println("Decoded Map:", decodedMap)
-
-	var decodedSecretKeys []fr.Element
-	for _, base64Key := range decodedMap {
-		decodedBytes, err := base64.StdEncoding.DecodeString(base64Key)
-		if err != nil {
-			fmt.Println("Error decoding Base64:", err)
-			return
-		}
-
-		var secretKey fr.Element
-		err = secretKey.UnmarshalJSON(decodedBytes)
-		if err != nil {
-			fmt.Println("Error unmarshaling secret key:", err)
-			return
-		}
-
-		decodedSecretKeys = append(decodedSecretKeys, secretKey)
-	}
-
-	fmt.Println("Decoded Secret Keys:", decodedSecretKeys)
-	fmt.Println("Decoded Secret Keys:", secretkeys)
+	// fmt.Println("Decoded Secret Keys:", decodedSecretKeys)
+	// fmt.Println("Decoded Secret Keys:", secretkeys)
 }

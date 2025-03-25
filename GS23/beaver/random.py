@@ -192,7 +192,7 @@ class BEAVER:
         randomsshare_Endtime = time.time() - randomsshare_StartTime
         logger.info(f"[{self.my_id}] Random extraction time: {randomsshare_Endtime} seconds")
         end_time = time.time() -start_time
-        logger.info(f"[{self.my_id}] random share generation finished! Total number: {int (self.batchsize) }, time: {end_time} (seconds)")
+        logger.info(f"[{self.my_id}] Random share generation finished! Total number: {int (self.batchsize) }, time: {end_time} (seconds)")
         
 
 
@@ -201,11 +201,13 @@ class BEAVER:
             logger.info(f"[{self.my_id}] Bytes Sent: {k}:{v} which is {round((100*v)/bytes_sent,3)}%")
         logger.info(f"[{self.my_id}] Total bytes sent out aa: {bytes_sent}")
 
-        def write_bytes_to_file(file_path, byte_data):
-            with open(file_path, 'wb') as file:
-                file.write(byte_data)
+        # If you wish to store triples, please uncomment the following code.
         
-        write_bytes_to_file(f'ransh/{self.my_id}_randomshares.txt', randomshares_proofs)
+        # def write_bytes_to_file(file_path, byte_data):
+        #     with open(file_path, 'wb') as file:
+        #         file.write(byte_data)
+        
+        # write_bytes_to_file(f'ransh/{self.my_id}_randomshares.txt', randomshares_proofs)
         acss_outputs = [None]
         randomshares_proofs = [None]
         del acss_outputs, randomshares_proofs
