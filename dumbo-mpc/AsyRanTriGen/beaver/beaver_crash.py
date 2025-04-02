@@ -275,19 +275,18 @@ class BEAVER:
             logger.info(f" [{self.my_id}] [beaver triples] The ACS set is {acsset_beaver}") 
             
             triples = self.beavergen(acsset_beaver, reduction_outputs, reduction_values)
+            beaver_time = time.time() -acss_start_time
             
-            # If you wish to store triples, please uncomment the following code.
+            # The time it takes to write the triples to the file is not included in the total time overhead
+            def write_bytes_to_file(file_path, byte_data):
+                with open(file_path, 'wb') as file:
+                    file.write(byte_data)
             
-            # def write_bytes_to_file(file_path, byte_data):
-            #     with open(file_path, 'wb') as file:
-            #         file.write(byte_data)
-            
-            # write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
+            write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
 
             reduction_outputs = [None]
             triples = [None]
             
-            beaver_time = time.time() -acss_start_time
             logger.info(f"[{self.my_id}] Beaver finished! Node {self.my_id}, total number: {int ((self.t + 1) * self.batchsize / 2) }, time: {beaver_time} (seconds)")
             
             

@@ -206,20 +206,19 @@ class dualmode:
             triple_number = 0
         else:
             triple_number = len(self.triples) * self.k
+            
+        opt_time = time.time()-start_opt_time
+        
+        # The time it takes to write the triples to the file is not included in the total time overhead
+        def write_bytes_to_file(file_path, byte_data):
+            with open(file_path, 'w') as f:
+                for sublist in byte_data:
+                    for item in sublist:
+                        f.write(str(item) + '\n')
+        write_bytes_to_file(f'./opt-triples/{self.my_id}_triples.txt', self.triples)
+        
         logger.info(f"[{self.my_id}] Total bytes sent out aa: {bytes_sent}")
-        logger.info(f'[{self.my_id}] OptRanTriGen finished! triples: {triple_number}, time: {time.time()-start_opt_time} (seconds)')
-        
-        # If you wish to store triples, please uncomment the following code.
-        
-        # def write_bytes_to_file(file_path, byte_data):
-        #     with open(file_path, 'w') as f:
-        #         for sublist in byte_data:
-        #             for item in sublist:
-        #                 f.write(str(item) + '\n')
-        
-        # # logger.info(f"[{self.my_id}] Total bytes sent out aa: {self.triples}")
-        # write_bytes_to_file(f'./opt-triples/{self.my_id}_triples.txt', self.triples)
-        
+        logger.info(f'[{self.my_id}] OptRanTriGen finished! triples: {triple_number}, time: {opt_time} (seconds)')     
         
         # switch to execute the AsyRanTriGen instance
         import subprocess

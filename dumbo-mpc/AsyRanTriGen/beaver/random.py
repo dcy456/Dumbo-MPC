@@ -185,6 +185,16 @@ class BEAVER:
         randomsshare_Endtime = time.time() - randomsshare_StartTime
         logger.info(f"[{self.my_id}] [random shares] Random extraction time: {randomsshare_Endtime} seconds") 
         end_time = time.time() -start_time
+        
+        
+        # The time it takes to write the random shares to the file is not included in the total time overhead
+        def write_bytes_to_file(file_path, byte_data):
+            with open(file_path, 'wb') as file:
+                file.write(byte_data)
+        
+        write_bytes_to_file(f'ransh/{self.my_id}_randomshares.txt', randomshares_proofs)
+        
+        
         logger.info(f"[{self.my_id}] Finished! Node {self.my_id}, total number: {int ((self.t + 1) * self.batchsize) }, time: {end_time} (seconds)")
         
         bytes_sent = node_communicator.bytes_sent
@@ -192,13 +202,6 @@ class BEAVER:
             logger.info(f"[{self.my_id}] Bytes Sent: {k}:{v} which is {round((100*v)/bytes_sent,3)}%")
         logger.info(f"[{self.my_id}] Total bytes sent out aa: {bytes_sent}")
         
-        # If you wish to store random shares, please uncomment the following code.
-        
-        # def write_bytes_to_file(file_path, byte_data):
-        #     with open(file_path, 'wb') as file:
-        #         file.write(byte_data)
-        
-        # write_bytes_to_file(f'ransh/{self.my_id}_randomshares.txt', randomshares_proofs)
         
         acss_outputs = [None]
         randomshares_proofs = [None]

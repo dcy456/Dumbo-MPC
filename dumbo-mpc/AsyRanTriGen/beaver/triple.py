@@ -211,6 +211,15 @@ class BEAVER:
                 
         reduction_outputs = [None]
         end_time = time.time() -start_time
+        
+        # The time it takes to write the triples to the file is not included in the total time overhead
+        def write_bytes_to_file(file_path, byte_data):
+            with open(file_path, 'wb') as file:
+                file.write(byte_data)
+        
+        write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
+        
+        
         logger.info(f"[triple] Finished! Node {self.my_id}, total number: {int ((self.t + 1) * self.batchsize / 2) }, time: {end_time} (seconds)")
         
         
@@ -219,12 +228,6 @@ class BEAVER:
             logger.info(f"[{self.my_id}] Bytes Sent: {k}:{v} which is {round((100*v)/bytes_sent,3)}%")
             logger.info(f"[{self.my_id}] Total bytes sent out aa: {bytes_sent}")
 
-        # If you wish to store triples, please uncomment the following code.
-        # def write_bytes_to_file(file_path, byte_data):
-        #     with open(file_path, 'wb') as file:
-        #         file.write(byte_data)
-        
-        # write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
         
         triples = [None]
         while True:

@@ -107,16 +107,14 @@ class BEAVER:
             commitment[i] = json.loads(acss_outputs[i]['commits'].decode('utf-8'))
             proofsandshares[i] = json.loads(acss_outputs[i]['shares'].decode('utf-8'))
 
-        filtered_commitments = [item for item in commitment if item is not None ]
-        serialized_commitments = json.dumps(filtered_commitments).encode('utf-8')
+        # filtered_commitments = [item for item in commitment if item is not None ]
+        serialized_commitments = json.dumps(commitment).encode('utf-8')
         serialized_proofandshares = json.dumps(proofsandshares).encode('utf-8')
-        # logger.info(f"[{self.my_id}] proofsandshares {proofsandshares}")
 
 
         deserialized_commandprooflist = json.loads(sharesproofs_ab.decode('utf-8')) 
         serialized_share_ab = json.dumps(deserialized_commandprooflist["proof"]).encode('utf-8')
         serialized_triples = lib.pyTriplesCompute(serialized_acsset, serialized_share_ab, serialized_proofandshares, serialized_commitments)
-        
         return serialized_triples   
 
     async def acss_step(self, msgmode, outputs, values, acss_signal):
@@ -149,8 +147,7 @@ class BEAVER:
             outputs[dealer] = {'shares':shares, 'commits':commitments}
             if len(outputs) >= self.n - self.t:
                 acss_signal.set()
-
-            await asyncio.sleep(0.01)
+            # await asyncio.sleep(0.01)
 
             if len(outputs) == self.n:
                 return
@@ -228,12 +225,6 @@ class BEAVER:
 
         logger.info(f"[{self.my_id}] Starting extract random shares") 
         randomshares_proofs = self.genrandomshare(acsset, acss_outputs)
-        
-        # def write_bytes_to_file(file_path, byte_data):
-        #     with open(file_path, 'wb') as file:
-        #         file.write(byte_data)
-        
-        # write_bytes_to_file(f'ransh/{self.my_id}_randomshares.txt', randomshares_proofs)
             
         acss_outputs = [None]
         logger.info(f"[{self.my_id}] Obtaining total {(self.t + 1) * self.batchsize} random shares!")
@@ -271,28 +262,19 @@ class BEAVER:
         )
         acsset_beaver = await acs.handle_message()
         logger.info(f"[{self.my_id}] [beaver triples] The ACS set is {acsset_beaver}") 
-        acsset_beaver =[3, 2, 1]
         
         triples = self.beavergen(acsset_beaver, reduction_outputs, reduction_values)
-        
-        # If you wish to store triples, please uncomment the following code.
-        
-        # def write_bytes_to_file(file_path, byte_data):
-        #     with open(file_path, 'wb') as file:
-        #         file.write(byte_data)
-        
-        # write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)
-        
-
-        reduction_outputs = [None]
-        # triples = [None]
-        
         beaver_time = time.time() -acss_start_time
-        await asyncio.sleep(2)
-        logger.info(f"[{self.my_id}] [beaver triples] Finished! Node {self.my_id}, total number: {int ((self.t + 1) * self.batchsize / 2) }, time: {beaver_time} (seconds)")
         
+        # The time it takes to write the triples to the file is not included in the total time overhead
+        def write_bytes_to_file(file_path, byte_data):
+            with open(file_path, 'wb') as file:
+                file.write(byte_data)
+        
+        write_bytes_to_file(f'triples/{self.my_id}_triples.txt', triples)      
+        
+               
         # test triple correctness
-        
         # def read_multiple_files(filenames):
         #     contents = []
         #     for filename in filenames:
@@ -314,6 +296,9 @@ class BEAVER:
         # alltriples = read_multiple_files(filenames)
         # lib.pyReconstruct(alltriples[0], alltriples[1], alltriples[2], alltriples[3])
         
+        reduction_outputs = [None]
+        logger.info(f"[{self.my_id}] [beaver triples] Finished! Node {self.my_id}, total number: {int ((self.t + 1) * self.batchsize / 2) }, time: {beaver_time} (seconds)")
+
         
         bytes_sent = node_communicator.bytes_sent
         for k,v in node_communicator.bytes_count.items():

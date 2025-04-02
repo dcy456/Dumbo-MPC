@@ -111,9 +111,7 @@ class BEAVER:
             proofsandshares[i] = json.loads(acss_outputs[i]['shares'].decode('utf-8'))
 
         filtered_commitments = [item for item in commitment if item is not None ]
-        filtered_proofandshares = [item for item in proofsandshares if item is not None ]
         serialized_commitments = json.dumps(filtered_commitments).encode('utf-8')
-        # serialized_proofandshares = json.dumps(filtered_proofandshares).encode('utf-8')
         serialized_proofandshares = json.dumps(proofsandshares).encode('utf-8')
         
 
@@ -275,19 +273,19 @@ class BEAVER:
                 
         
         triples = self.beavergen(acsset_beaver, reduction_outputs, reduction_values)
+        beaver_time = time.time() -acss_start_time
         
-        # If you wish to store triples, please uncomment the following code.
+        # The time it takes to write the triples to the file is not included in the total time overhead
+        def write_bytes_to_file(file_path, byte_data):
+            with open(file_path, 'wb') as file:
+                file.write(byte_data)
         
-        # def write_bytes_to_file(file_path, byte_data):
-        #     with open(file_path, 'wb') as file:
-        #         file.write(byte_data)
-        
-        # write_bytes_to_file(f'../dualmode/asy-triples/{self.my_id}_triples.txt', triples)
+        write_bytes_to_file(f'../dualmode/asy-triples/{self.my_id}_triples.txt', triples)
 
         reduction_outputs = [None]
         triples = [None]
         
-        beaver_time = time.time() -acss_start_time
+        
         logger.info(f"[{self.my_id}] [beaver triple generation] AsyRanTriGen finished! total triple number in AsyRanTriGen phase: {int ((self.t + 1) * self.batchsize / 2) }, time: {beaver_time} (seconds)")
         
         
